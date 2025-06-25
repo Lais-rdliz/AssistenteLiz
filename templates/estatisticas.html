@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assistente Liz - Estatísticas de Uso</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="/">Início</a></li>
+            <li><a href="/respostas">Gerenciar Respostas</a></li>
+            <li><a href="/gerar_resposta">Gerar Resposta Personalizada</a></li>
+            <li><a href="/estatisticas">Ver Estatísticas de Uso</a></li>
+        </ul>
+    </nav>
+
+    <div class="container"> <h1>Estatísticas de Uso das Respostas</h1>
+
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Resposta</th>
+                    <th>Vezes Usada</th>
+                </tr>
+            </thead>
+            <tbody id="tabela_estatisticas">
+                </tbody>
+        </table>
+
+        <p id="mensagem_sem_dados" style="display: none; text-align: center; margin-top: 20px; color: #555;">
+            Nenhum dado de uso encontrado ainda. Gere e copie algumas respostas para ver as estatísticas!
+        </p>
+
+    </div> <footer>
+        <p>&copy; 2025 Assistente Liz - Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        // Função para carregar e exibir as estatísticas de uso
+        function carregarEstatisticas() {
+            fetch('/api/estatisticas_uso') // Pede as estatísticas para o programa Python (API JSON)
+                .then(response => {
+                    if (!response.ok) {
+                        // Se a resposta não for OK (ex: 500 Erro Interno do Servidor), lança um erro
+                        throw new Error('Erro ao carregar estatísticas: ' + response.statusText);
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    const tabela = document.getElementById('tabela_estatisticas');
+                    const mensagemSemDados = document.getElementById('mensagem_sem_dados');
+                    tabela.innerHTML = ''; // Limpa a tabela antes de adicionar novos dados
+
+                    if (data.estatisticas && data.estatisticas.length > 0) {
+                        // Se houver dados, esconde a mensagem e exibe a tabela
+                        mensagemSemDados.style.display = 'none';
+                        tabela.style.display = 'table-row-group'; // Garante que a tbody esteja visível
+
+                        data.estatisticas.forEach(item => {
+                            const row = tabela.insertRow(); // Adiciona uma nova linha
+                            
+                            const celulaTexto = row.insertCell(); // Adiciona uma célula para o texto da resposta
+                            celulaTexto.textContent = item.texto;
+
+                            const celulaContagem = row.insertCell(); // Adiciona uma célula para a contagem de uso
+                            celulaContagem.textContent = item.contagem;
+                        });
+                    } else {
+                        // Se não houver dados, exibe a mensagem e esconde a tabela
+                        tabela.style.display = 'none';
+                        mensagemSemDados.style.display = 'block';
+                    }
+                })
+                .catch(error => {
+                    console.error('Erro ao carregar as estatísticas:', error);
+                    // Exibir mensagem de erro amigável ao usuário, se necessário
+                    const tabela = document.getElementById('tabela_estatisticas');
+                    const mensagemSemDados = document.getElementById('mensagem_sem_dados');
+                    tabela.innerHTML = '';
+                    tabela.style.display = 'none';
+                    mensagemSemDados.textContent = 'Ocorreu um erro ao carregar as estatísticas. Tente novamente mais tarde.';
+                    mensagemSemDados.style.display = 'block';
+                    mensagemSemDados.style.color = '#e74c3c'; // Cor de erro
+                });
+        }
+
+        // Carrega as estatísticas quando a página é carregada
+        carregarEstatisticas();
+    </script>
+</body>
+</html>

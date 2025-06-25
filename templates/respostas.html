@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assistente Liz - Gerenciar Respostas</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="/">Início</a></li>
+            <li><a href="/respostas">Gerenciar Respostas</a></li>
+            <li><a href="/gerar_resposta">Gerar Resposta Personalizada</a></li>
+            <li><a href="/estatisticas">Ver Estatísticas de Uso</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>Gerenciar Respostas Padrão</h1>
+
+        <form action="/adicionar_resposta" method="post" id="form_adicionar_resposta">
+            <label for="texto">Nova Resposta:</label><br>
+            <textarea id="texto" name="texto" rows="4" cols="50" placeholder="Ex: Olá [NOME_ALUNO], sua presença foi fundamental."></textarea><br>
+            <button type="submit">Adicionar Resposta</button>
+        </form>
+
+        <h2>Respostas Cadastradas</h2>
+        <table id="tabela_respostas">
+            <thead>
+                <tr>
+                    <th>Título</th>
+                    <th>Texto da Resposta</th>
+                    <th class="coluna-acoes">Ações</th> </tr>
+            </thead>
+            <tbody>
+                </tbody>
+        </table>
+        </div> 
+
+    <footer>
+        <p>&copy; 2025 Assistente Liz - Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        // Função para exibir as respostas na tabela
+        function exibirRespostas(respostas) {
+            const tabelaBody = document.querySelector('#tabela_respostas tbody'); // Seleciona o corpo da tabela
+            tabelaBody.innerHTML = ''; // Limpa a tabela antes de adicionar os itens
+
+            respostas.forEach(resposta => {
+                const row = tabelaBody.insertRow(); // Cria uma nova linha na tabela
+                
+                // Célula para o Título
+                const celulaTitulo = row.insertCell();
+                celulaTitulo.className = 'celula-titulo'; // Classe para estilizar o título na tabela
+                celulaTitulo.textContent = resposta.titulo || 'Sem Título';
+
+                // Célula para o Texto da Resposta
+                const celulaTexto = row.insertCell();
+                celulaTexto.className = 'celula-texto'; // Classe para estilizar o texto na tabela
+                celulaTexto.innerHTML = resposta.texto.replace(/\r?\n/g, '<br>'); // Converte quebras de linha
+
+                // Célula para os Botões de Ação
+                const celulaAcoes = row.insertCell();
+                celulaAcoes.className = 'celula-acoes'; // Classe para estilizar a célula de ações
+
+                const divBotoes = document.createElement('div');
+                divBotoes.className = 'botoes-acao'; // Esta classe já está no seu CSS para empilhar
+
+                const botaoEditar = document.createElement('button');
+                botaoEditar.textContent = 'Editar';
+                botaoEditar.onclick = () => editarResposta(resposta.id, resposta.texto);
+
+                const botaoExcluir = document.createElement('button');
+                botaoExcluir.textContent = 'Excluir';
+                botaoExcluir.className = 'delete-button';
+                botaoExcluir.onclick = () => excluirResposta(resposta.id);
+
+                divBotoes.appendChild(botaoEditar);
+                divBotoes.appendChild(botaoExcluir);
+                celulaAcoes.appendChild(divBotoes); // Adiciona a div de botões à célula de ações
+            });
+        }
+
+        // ... (o restante das funções JavaScript: editarResposta, excluirResposta, carregarRespostas, form_adicionar_resposta listener) ...
+        // FUNÇÃO EDITAR RESPOSTA PRECISA SER ATUALIZADA SE VOCÊ QUISER EDITAR O TITULO TAMBEM!
+        // No momento ela só edita o texto. Se quiser o titulo, o prompt precisa perguntar pelo titulo e texto.
+        function editarResposta(id, textoAtual) {
+            // Se você quiser editar o título aqui, precisaria de outro prompt ou um modal mais complexo
+            // Por enquanto, o prompt edita apenas o texto, como era antes.
+            const novoTexto = prompt('Editar Resposta:', textoAtual);
+            if (novoTexto !== null && novoTexto.trim() !== '') {
+                fetch('/editar_resposta', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ id: id, texto: novoTexto })
+                })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.sucesso) {
+                        carregarRespostas();
+                        alert('Resposta editada com sucesso!');
+                    } else {
+                        alert('Erro ao editar resposta.');
+                    }
+                })
+                .catch(error => console.error('Erro na requisição de edição:', error));
+            } else if (novoTexto !== null) {
+                alert('O texto da resposta não pode ser vazio.');
+            }
+        }
+
+        // ... (O restante do JavaScript permanece o mesmo) ...
+
+        // Função para carregar as respostas do servidor (API JSON)
+        function carregarRespostas() {
+            fetch('/api/respostas_json')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Erro ao carregar respostas: ' + response.statusText);
+                    }
+                    return response.json();
+                })
+                .then(data => exibirRespostas(data.respostas))
+                .catch(error => console.error('Erro ao carregar as respostas:', error));
+        }
+
+        // Adiciona um listener para o formulário de adição, para usar AJAX
+        document.getElementById('form_adicionar_resposta').addEventListener('submit', function(event) {
+            event.preventDefault(); // Impede o envio padrão do formulário
+
+            const textoInput = document.getElementById('texto');
+            const textoResposta = textoInput.value;
+
+            // NOVIDADE: Adiciona o prompt para o título ao adicionar nova resposta
+            const tituloInput = prompt('Digite um título curto para esta resposta (ex: "Análise de Estágio"):');
+
+            if (textoResposta.trim() === '') {
+                alert('Por favor, digite um texto para a resposta.');
+                return;
+            }
+            if (tituloInput === null || tituloInput.trim() === '') {
+                alert('O título da resposta não pode ser vazio. Por favor, digite um título.');
+                return;
+            }
+
+            fetch('/adicionar_resposta', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json' 
+                },
+                body: JSON.stringify({ titulo: tituloInput, texto: textoResposta }) 
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.sucesso) {
+                    textoInput.value = ''; 
+                    carregarRespostas(); 
+                    alert('Resposta adicionada com sucesso!');
+                } else {
+                    alert('Erro ao adicionar resposta.');
+                }
+            })
+            .catch(error => console.error('Erro ao adicionar resposta:', error));
+        });
+
+        // Carrega as respostas ao carregar a página
+        carregarRespostas();
+    </script>
+</body>
+</html>

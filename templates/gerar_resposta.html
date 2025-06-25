@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assistente Liz - Gerar Resposta Personalizada</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="/">Início</a></li>
+            <li><a href="/respostas">Gerenciar Respostas</a></li>
+            <li><a href="/gerar_resposta">Gerar Resposta Personalizada</a></li>
+            <li><a href="/estatisticas">Ver Estatísticas de Uso</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>Gerar Resposta Personalizada</h1>
+
+        <form id="form_gerar_resposta">
+            <label for="selecionar_resposta">Escolha uma Resposta Padrão:</label><br>
+            <select id="selecionar_resposta" name="resposta_id">
+                </select><br><br>
+
+            <label for="nome_aluno">Nome do Aluno:</label><br>
+            <input type="text" id="nome_aluno" name="nome_aluno" placeholder="Digite o nome do aluno aqui" required><br><br>
+            
+            <button type="button" onclick="gerarResposta()">Gerar Resposta</button>
+        </form>
+
+        <h2>Resposta Final:</h2>
+        <textarea id="resposta_final" rows="6" cols="70" readonly placeholder="A resposta personalizada aparecerá aqui."></textarea>
+        <button type="button" onclick="copiarResposta()">Copiar Resposta</button>
+    </div> <footer>
+        <p>&copy; 2025 Assistente Liz - Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        let todasAsRespostas = []; 
+
+        function carregarRespostasParaSelecao() {
+            fetch('/api/respostas_json') 
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Erro ao carregar respostas: ' + response.statusText);
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    todasAsRespostas = data.respostas; 
+                    const selectElement = document.getElementById('selecionar_resposta');
+                    selectElement.innerHTML = ''; 
+
+                    if (todasAsRespostas.length === 0) {
+                        const option = document.createElement('option');
+                        option.value = '';
+                        option.textContent = 'Nenhuma resposta cadastrada. Gerencie em "Gerenciar Respostas".';
+                        option.disabled = true;
+                        option.selected = true;
+                        selectElement.appendChild(option);
+                    } else {
+                        todasAsRespostas.forEach(resposta => {
+                            const option = document.createElement('option');
+                            option.value = resposta.id; 
+                            
+                            // --- MUDANÇA AQUI: Formatação da opção no SELECT ---
+                            const titulo = resposta.titulo || 'Sem Título'; 
+                            
+                            // Você pode escolher uma destas opções para `option.textContent`:
+                            // 1. Apenas o título:
+                            option.textContent = titulo; 
+                            
+                            // 2. Título e um pedaço muito curto do texto para contexto (sem repetição do Olá [NOME_ALUNO]):
+                            // const textoCurtoParaPreview = resposta.texto
+                            //     .replace(/Olá, \[NOME_ALUNO\]!/, '') // Remove a saudação
+                            //     .replace(/\r?\n/g, ' ') // Remove quebras de linha
+                            //     .trim() // Remove espaços no início/fim
+                            //     .substring(0, 30) + '...'; // Pega os primeiros 30 caracteres
+                            // option.textContent = `${titulo} - ${textoCurtoParaPreview}`;
+
+                            // 3. Título e a primeira linha do texto (sem a saudação inicial):
+                            // const primeiraLinha = resposta.texto
+                            //     .split(/\r?\n/)[0] // Pega a primeira linha
+                            //     .replace(/Olá, \[NOME_ALUNO\]!/, '') // Remove a saudação
+                            //     .trim();
+                            // option.textContent = `${titulo} - ${primeiraLinha}`;
+                            // --- FIM DA MUDANÇA ---
+
+                            selectElement.appendChild(option);
+                        });
+                        selectElement.selectedIndex = 0; 
+                    }
+                })
+                .catch(error => {
+                    console.error('Erro ao carregar as respostas para seleção:', error);
+                    const selectElement = document.getElementById('selecionar_resposta');
+                    selectElement.innerHTML = '<option disabled selected>Erro ao carregar respostas.</option>';
+                });
+        }
+
+        function gerarResposta() {
+            const respostaIdSelecionada = document.getElementById('selecionar_resposta').value;
+            const nomeAluno = document = document.getElementById('nome_aluno').value; // CORREÇÃO AQUI
+            const respostaFinalArea = document.getElementById('resposta_final');
+
+            if (!respostaIdSelecionada) {
+                respostaFinalArea.value = "Por favor, selecione uma resposta padrão.";
+                return;
+            }
+            if (nomeAluno.trim() === '') {
+                respostaFinalArea.value = "Por favor, digite o nome do aluno.";
+                return;
+            }
+
+            const respostaEscolhida = todasAsRespostas.find(resposta => resposta.id == respostaIdSelecionada);
+
+            if (respostaEscolhida) {
+                const textoFinal = respostaEscolhida.texto.replace(/\[NOME_ALUNO\]/g, nomeAluno);
+                respostaFinalArea.value = textoFinal;
+            } else {
+                respostaFinalArea.value = "Erro: Resposta selecionada não encontrada.";
+            }
+        }
+
+        function copiarResposta() {
+            const respostaFinalArea = document.getElementById('resposta_final');
+            if (respostaFinalArea.value.trim() === '') {
+                alert('Não há resposta para copiar.');
+                return;
+            }
+
+            respostaFinalArea.select();
+            document.execCommand('copy');
+            alert('Resposta copiada para a área de transferência!');
+
+            const respostaIdSelecionada = document.getElementById('selecionar_resposta').value;
+            if (respostaIdSelecionada) { 
+                fetch('/registrar_uso', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ id_resposta: parseInt(respostaIdSelecionada) })
+                })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.sucesso) {
+                        console.log('Uso da resposta registrado com sucesso!');
+                    } else {
+                        console.error('Erro ao registrar o uso da resposta.');
+                    }
+                })
+                .catch(error => console.error('Erro na requisição de registro de uso:', error));
+            }
+        }
+
+        carregarRespostasParaSelecao();
+    </script>
+</body>
+</html>

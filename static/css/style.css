@@ -1,0 +1,349 @@
+/* Paleta de Cores para o Assistente Liz (Azul como predominante) */
+:root {
+    --primary-color: #3498db; /* Azul principal */
+    --secondary-color: #2c3e50; /* Azul escuro para textos e fundos */
+    --accent-color: #e74c3c; /* Vermelho para ações de perigo (ex: excluir) */
+    --light-bg-color: #f4f7f6; /* Fundo claro para o corpo */
+    --text-color: #333; /* Cor padrão para textos */
+    --border-color: #ccc; /* Cor da borda */
+    --button-hover-color: #2980b9; /* Azul mais escuro para hover de botão */
+    --success-color: #2ecc71; /* Verde para sucesso */
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: var(--light-bg-color);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+h1, h2 {
+    color: var(--secondary-color);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Navegação Global */
+nav {
+    background-color: var(--primary-color);
+    padding: 10px 0;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Faz os itens ficarem lado a lado */
+    justify-content: center; /* Centraliza os itens */
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: var(--button-hover-color);
+}
+
+/* Contêineres de conteúdo (para agrupar formulários, listas) */
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    max-width: 800px;
+    margin: 30px auto; /* Centraliza o contêiner */
+}
+
+/* Formulários */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Espaço entre os elementos do formulário */
+    margin-bottom: 30px;
+}
+
+label {
+    font-weight: bold;
+    color: var(--secondary-color);
+}
+
+input[type="text"],
+textarea,
+select {
+    width: calc(100% - 20px); /* Ajusta largura para caber padding */
+    padding: 10px;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    font-size: 1rem;
+    box-sizing: border-box; /* Garante que padding não aumente a largura total */
+}
+
+textarea {
+    resize: vertical; /* Permite redimensionar apenas na vertical */
+}
+
+button, input[type="submit"] {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+    align-self: flex-start; /* Alinha o botão à esquerda dentro do flex container */
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: var(--button-hover-color);
+}
+
+/* Botões de Excluir/Perigo */
+.delete-button {
+    background-color: var(--accent-color);
+}
+
+.delete-button:hover {
+    background-color: #c0392b; /* Vermelho mais escuro no hover */
+}
+
+/* Tabela de Respostas Cadastradas (Principal) */
+table#tabela_respostas { /* Use o ID específico da sua tabela */
+    width: 100%;
+    border-collapse: collapse; /* Remove espaços entre as bordas das células */
+    margin-top: 20px;
+    background-color: white; /* Fundo branco para a tabela */
+    border-radius: 8px; /* Cantos arredondados */
+    overflow: hidden; /* Garante que bordas arredondadas funcionem com bordas de célula */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05); /* Sombra leve */
+}
+
+table#tabela_respostas thead th {
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: bold;
+    padding: 12px 15px;
+    text-align: left;
+    border: none; /* Remove a borda padrão do cabeçalho */
+}
+
+table#tabela_respostas tbody td {
+    border: 1px solid var(--border-color); /* Borda mais suave para as células */
+    padding: 12px 15px;
+    vertical-align: top; /* Alinha o conteúdo ao topo da célula */
+    text-align: left;
+}
+
+table#tabela_respostas tbody tr:nth-child(even) { /* Linhas pares */
+    background-color: #f9f9f9;
+}
+
+table#tabela_respostas tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Estilo para o Título da Resposta na Tabela */
+table#tabela_respostas .celula-titulo {
+    font-weight: bold;
+    color: var(--secondary-color);
+    width: 20%; /* Dá um pouco mais de largura para o título */
+    min-width: 120px; /* Garante que o título tenha um mínimo de largura */
+    word-break: break-word; /* Garante que o título quebre se for longo */
+}
+
+/* Estilo para o Texto da Resposta na Tabela */
+table#tabela_respostas .celula-texto {
+    width: 60%; /* Dá a maior parte da largura para o texto da resposta */
+    word-break: break-word; /* Garante que o texto quebre dentro da célula */
+    white-space: pre-wrap; /* Mantém quebras de linha e espaços do texto original (JSON com <br>) */
+}
+
+/* Célula de Ações na Tabela */
+table#tabela_respostas .coluna-acoes {
+    width: 20%; /* Largura para os botões de ação */
+    text-align: right; /* Alinha os botões à direita na célula */
+    vertical-align: middle; /* Centraliza verticalmente o conteúdo da célula */
+}
+
+/* Agrupamento dos botões Editar/Excluir: SEMPRE EMPILHADOS VERTICALMENTE */
+/* Esta regra é universal para qualquer div com 'botoes-acao' */
+.botoes-acao { 
+    display: flex;
+    flex-direction: column; /* FORÇA ELES A FICAREM VERTICAIS! */
+    gap: 8px; /* Espaço entre os botões empilhados */
+    flex-shrink: 0; 
+    align-items: stretch; /* Faz os botões ocuparem a largura total da coluna */
+    min-width: 80px; /* Garante um espaço mínimo para a coluna de botões */
+    margin-left: auto; /* Alinha o grupo de botões à direita dentro do seu container */
+}
+
+.botoes-acao button {
+    padding: 8px 12px;
+    font-size: 0.85rem;
+    white-space: nowrap; /* Impede que o texto dos botões quebre */
+    width: 100%; /* Faz os botões preencherem a largura da .botoes-acao */
+    text-align: center; /* Centraliza o texto dentro do botão */
+}
+
+/* Tabela de Estatísticas (Mantida separada se tiver estilização diferente) */
+table { /* Esta regra genérica de 'table' ainda se aplica a outras tabelas, como a de estatísticas */
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td { /* Esta regra genérica de 'th, td' ainda se aplica a outras tabelas, como a de estatísticas */
+    border: 1px solid var(--border-color);
+    padding: 12px 15px;
+    text-align: left;
+}
+
+th { /* Esta regra genérica de 'th' ainda se aplica a outras tabelas, como a de estatísticas */
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: bold;
+}
+
+tr:nth-child(even) { /* Esta regra genérica de 'tr:nth-child(even)' ainda se aplica a outras tabelas */
+    background-color: #f9f9f9;
+}
+
+tr:hover { /* Esta regra genérica de 'tr:hover' ainda se aplica a outras tabelas */
+    background-color: #f1f1f1;
+}
+
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    color: #777;
+    font-size: 0.9rem;
+}
+
+/* Pequenos ajustes para a área de resposta final */
+textarea#resposta_final {
+    margin-bottom: 15px;
+    font-family: 'Courier New', Courier, monospace; /* Fonte monoespaçada para código/texto */
+    color: var(--secondary-color);
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+}
+
+/* Media Query para Telas Menores (Responsividade da Tabela) */
+@media (max-width: 768px) {
+    /* Ajustes para telas de tablets e celulares */
+    .container {
+        padding: 15px; /* Reduz o padding do container */
+    }
+
+    nav ul {
+        flex-direction: column; /* Coloca os itens do menu um abaixo do outro */
+        gap: 5px; /* Espaço entre os itens do menu */
+    }
+
+    nav ul li {
+        margin: 5px 0; /* Ajusta a margem */
+    }
+
+    /* Regras para a tabela em telas menores (faz ela parecer cards) */
+    table#tabela_respostas,
+    table#tabela_respostas thead,
+    table#tabela_respostas tbody,
+    table#tabela_respostas th,
+    table#tabela_respostas td,
+    table#tabela_respostas tr {
+        display: block; /* Faz elementos da tabela se comportarem como blocos (um abaixo do outro) */
+    }
+    
+    table#tabela_respostas thead tr {
+        position: absolute; /* Esconde o cabeçalho original */
+        top: -9999px;
+        left: -9999px;
+    }
+
+    table#tabela_respostas tr {
+        border: 1px solid var(--border-color);
+        margin-bottom: 15px;
+        border-radius: 8px;
+        overflow: hidden;
+        background-color: white; /* Fundo para o "card" da linha */
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    }
+    
+    table#tabela_respostas tbody td {
+        border: none; /* Remove as bordas entre as "linhas" virtuais da célula */
+        border-bottom: 1px solid #eee; /* Adiciona uma borda inferior suave para separar os campos */
+        position: relative;
+        padding-left: 50%; /* Espaço para o "cabeçalho" virtual */
+        text-align: right; /* Alinha o conteúdo à direita */
+    }
+
+    table#tabela_respostas tbody td:last-child {
+        border-bottom: none; /* Última célula da linha não tem borda inferior */
+    }
+
+    table#tabela_respostas tbody td::before {
+        /* Cria os "cabeçalhos" virtuais para cada campo */
+        position: absolute;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+        font-weight: bold;
+        text-align: left; /* Alinha o "cabeçalho" virtual à esquerda */
+        color: var(--secondary-color);
+    }
+
+    /* Definindo os data-labels para as colunas virtuais em mobile */
+    table#tabela_respostas tbody td:nth-of-type(1)::before { content: "Título"; }
+    table#tabela_respostas tbody td:nth-of-type(2)::before { content: "Texto"; }
+    table#tabela_respostas tbody td:nth-of-type(3)::before { content: "Ações"; }
+
+    table#tabela_respostas .coluna-acoes {
+        text-align: center; /* Centraliza os botões de ação em telas menores */
+        padding: 15px; /* Aumenta o padding da célula de ação em mobile */
+        vertical-align: middle;
+        background-color: var(--light-bg-color); /* Um fundo suave para a área de ações */
+    }
+
+    /* Em telas menores, a div de botões sempre é empilhada (regra global) */
+    .botoes-acao {
+        width: 100%; /* Ocupa a largura total na célula de ação */
+        justify-content: center; /* Centraliza os botões dentro da div */
+    }
+
+    .botoes-acao button {
+        /* Já definidos para 100% width e column, então se adaptarão bem aqui */
+        margin: 5px 0; /* Espaçamento vertical entre botões */
+    }
+}
+
+@media (max-width: 480px) {
+    /* Ajustes específicos para celulares muito pequenos */
+    body {
+        padding: 10px;
+    }
+
+    h1, h2 {
+        font-size: 1.5rem;
+    }
+
+    /* As regras para .botoes-acao e seus buttons já os empilham e dão width: 100% */
+}
