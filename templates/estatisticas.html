@@ -16,13 +16,13 @@
         </ul>
     </nav>
 
-    <div class="container"> <h1>Estatísticas de Uso das Respostas</h1>
+    <div class="container">
+        <h1>Estatísticas de Uso das Respostas</h1>
 
         <table border="1">
             <thead>
                 <tr>
-                    <th>Resposta</th>
-                    <th>Vezes Usada</th>
+                    <th>Título da Resposta</th> <th>Vezes Usada</th>
                 </tr>
             </thead>
             <tbody id="tabela_estatisticas">
@@ -49,37 +49,44 @@
                     return response.json();
                 })
                 .then(data => {
-                    const tabela = document.getElementById('tabela_estatisticas');
+                    const tabelaBody = document.getElementById('tabela_estatisticas'); // Seleciona o corpo da tabela
                     const mensagemSemDados = document.getElementById('mensagem_sem_dados');
-                    tabela.innerHTML = ''; // Limpa a tabela antes de adicionar novos dados
+                    tabelaBody.innerHTML = ''; // Limpa a tabela antes de adicionar novos dados
 
                     if (data.estatisticas && data.estatisticas.length > 0) {
                         // Se houver dados, esconde a mensagem e exibe a tabela
                         mensagemSemDados.style.display = 'none';
-                        tabela.style.display = 'table-row-group'; // Garante que a tbody esteja visível
+                        // A tabelaBody.style.display = 'table-row-group'; é default, não precisa redefinir aqui.
 
                         data.estatisticas.forEach(item => {
-                            const row = tabela.insertRow(); // Adiciona uma nova linha
+                            const row = tabelaBody.insertRow(); // Adiciona uma nova linha
                             
-                            const celulaTexto = row.insertCell(); // Adiciona uma célula para o texto da resposta
-                            celulaTexto.textContent = item.texto;
+                            // Célula para o Título da Resposta
+                            const celulaTitulo = row.insertCell(); // <-- MUDANÇA: Nome da variável para clareza
+                            celulaTitulo.textContent = item.titulo; // <-- CORREÇÃO AQUI: Usa item.titulo
+                            // Opcional: Adicionar um atributo data-label para responsividade em mobile
+                            celulaTitulo.setAttribute('data-label', 'Título');
 
+                            // Célula para a Contagem de Uso
                             const celulaContagem = row.insertCell(); // Adiciona uma célula para a contagem de uso
                             celulaContagem.textContent = item.contagem;
+                            // Opcional: Adicionar um atributo data-label para responsividade em mobile
+                            celulaContagem.setAttribute('data-label', 'Vezes Usada');
                         });
                     } else {
                         // Se não houver dados, exibe a mensagem e esconde a tabela
-                        tabela.style.display = 'none';
+                        // tabelaBody.style.display = 'none'; é necessário se o CSS já não esconde.
+                        tabelaBody.innerHTML = ''; // Garante que não haja linhas vazias se não houver dados.
                         mensagemSemDados.style.display = 'block';
                     }
                 })
                 .catch(error => {
                     console.error('Erro ao carregar as estatísticas:', error);
                     // Exibir mensagem de erro amigável ao usuário, se necessário
-                    const tabela = document.getElementById('tabela_estatisticas');
+                    const tabelaBody = document.getElementById('tabela_estatisticas'); // Alterado de 'tabela' para 'tabelaBody'
                     const mensagemSemDados = document.getElementById('mensagem_sem_dados');
-                    tabela.innerHTML = '';
-                    tabela.style.display = 'none';
+                    tabelaBody.innerHTML = '';
+                    tabelaBody.style.display = 'none';
                     mensagemSemDados.textContent = 'Ocorreu um erro ao carregar as estatísticas. Tente novamente mais tarde.';
                     mensagemSemDados.style.display = 'block';
                     mensagemSemDados.style.color = '#e74c3c'; // Cor de erro

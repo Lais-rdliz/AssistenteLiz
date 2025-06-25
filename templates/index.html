@@ -3,19 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assistente Liz - Início</title> <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <title>Assistente Liz - Início</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 <body>
     <nav>
         <ul>
-            <li><a href="/">Início</a></li> <li><a href="/respostas">Gerenciar Respostas</a></li>
+            <li><a href="/">Início</a></li>
+            <li><a href="/respostas">Gerenciar Respostas</a></li>
             <li><a href="/gerar_resposta">Gerar Resposta Personalizada</a></li>
             <li><a href="/estatisticas">Ver Estatísticas de Uso</a></li>
         </ul>
     </nav>
 
-    <div class="container"> <h1>Bem-vindo ao Assistente Liz!</h1> <p>Seu assistente pessoal para automatizar e analisar suas respostas.</p>
-    </div> <footer>
-        <p>&copy; 2025 Assistente Liz - Todos os direitos reservados.</p> </footer>
+    <div class="container">
+        <h1>{{ saudacao }}, bem-vindo(a) ao Assistente Liz!</h1> 
+        <p>Seu assistente pessoal para automatizar e analisar suas respostas.</p>
+    </div> 
+    
+    <footer>
+        <p>&copy; 2025 Assistente Liz - Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>

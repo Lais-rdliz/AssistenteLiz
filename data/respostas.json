@@ -1,382 +1,397 @@
 [
     {
         "id": 1,
-        "titulo": "ANÁLISE DE ESTÁGIO - PRAZO DE CORREÇÃO",
-        "texto": "Olá, [NOME_ALUNO]!\n\nInfelizmente, não há um prazo para a conclusão da análise do estágio.\n\nA análise dos estágios é realizada por ordem de demanda, com prioridade para os alunos concluintes. Pedimos que acompanhe a atualização do status e o parecer final diretamente na plataforma.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
+        "titulo": "1- Estágio - Prazo de Correção",
+        "texto": "Olá, [NOME_ALUNO]!\n\nEspero que esta mensagem lhe encontre bem.\n\nInfelizmente, não há um prazo para a conclusão da análise do estágio.\n\nA análise dos estágios é realizada por ordem de demanda, com prioridade para os alunos concluintes. Pedimos que acompanhe a atualização do status e o parecer final diretamente na plataforma.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
     },
     {
         "id": 2,
-        "titulo": "REABERTURA DE ATIVIDADES AVALIATIVAS - APENAS COM ATESTADO MÉDICO",
-        "texto": "Olá, [NOME_ALUNO]!\n\nAs atividades avaliativas APENAS serão reabertas com a entrega de Atestado Médico, protocolado pela Central do Aluno.\n\nApós protocolar seu atestado, aguarde o deferimento, tire um print do mesmo e envie para o tutor da disciplina em questão via CHAT, solicitando a reabertura da mesma.\n\nCaso não tenha o atestado médico, deverá se matricular em dependência no próximo semestre.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
+        "titulo": "2- Reabertura Atividades - Apenas com Atestado Médico",
+        "texto": "Olá, [NOME_ALUNO]!\n\nEspero que esta mensagem lhe encontre bem.\n\nAs atividades avaliativas APENAS serão reabertas com a entrega de Atestado Médico, protocolado pela Central do Aluno.\n\nApós protocolar seu atestado, aguarde o deferimento, tire um print do mesmo e envie para o tutor da disciplina em questão via CHAT, solicitando a reabertura da mesma.\n\nCaso não tenha o atestado médico, deverá se matricular em dependência no próximo semestre.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
     },
     {
         "id": 3,
-        "titulo": "PEDIDO DE RELEITURA DO FÓRUM DE ORIENTAÇÃO E MANUAL DE PREENCHIMENTO DE ESTÁGIO",
-        "texto": "Olá, [NOME_ALUNO]!\n\nO Fórum de Orientação e o Manual de Preenchimento de Estágio são os documentos principais que contêm todas as informações detalhadas e os procedimentos necessários para a realização do estágio.\n\nPor gentileza, peço que realize uma nova leitura atenta desses materiais. Eles foram elaborados para esclarecer as questões mais frequentes.\n\nApós reler, se as dúvidas persistirem, sigo à disposição para auxiliá-lo nos pontos específicos que ainda não ficaram claros.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
+        "titulo": "3- Pedido de Releitura: Fórum e Manual de Preenchimento de Estágio",
+        "texto": "Olá, [NOME_ALUNO]!\n\nEspero que esta mensagem lhe encontre bem.\n\nO Fórum de Orientação e o Manual de Preenchimento de Estágio são os documentos principais que contêm todas as informações detalhadas e os procedimentos necessários para a realização do estágio.\n\nPor gentileza, peço que realize uma nova leitura atenta desses materiais. Eles foram elaborados para esclarecer as questões mais frequentes.\n\nApós reler, se as dúvidas persistirem, sigo à disposição para auxiliá-lo nos pontos específicos que ainda não ficaram claros.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
     },
     {
         "id": 4,
-        "titulo": "INFORMAÇÕES DETALHADAS SOBRE O ENADE",
-        "texto": "Olá, [NOME_ALUNO]!\n\nPara obter detalhes e informações relevantes sobre o ENADE, por gentileza, consulte o edital que foi enviado para o seu e-mail acadêmico ou acesse o site oficial do INEP <https://enade.inep.gov.br/enade/#!/index.\n\nEsses canais são as fontes indicadas para encontrar informações completas e atualizadas sobre o exame.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
+        "titulo": "4- Informações Detalhadas Sobre o Enade",
+        "texto": "Olá, [NOME_ALUNO]!\n\nEspero que esta mensagem lhe encontre bem.\n\nPara obter detalhes e informações relevantes sobre o ENADE, por gentileza, consulte o edital que foi enviado para o seu e-mail acadêmico ou acesse o site oficial do INEP <https://enade.inep.gov.br/enade/#!/index.\n\nEsses canais são as fontes indicadas para encontrar informações completas e atualizadas sobre o exame.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
     },
     {
         "id": 5,
-        "titulo": "COMO REALIZAR O AGENDAMENTO DA EPVA",
-        "texto": "Olá, [NOME_ALUNO]!\n\nO agendamento da EPVA é realizado de forma exclusiva pelo próprio aluno diretamente na plataforma, utilizando seu acesso com RA e senha.\n\nNós tutores não temos acesso a essa ferramenta de agendamento. Portanto, por gentileza, peço que acompanhe atentamente sua plataforma para identificar as datas e horários disponíveis e realizar o seu agendamento assim que possível.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
+        "titulo": "5- Agendamento da Epva",
+        "texto": "Olá, [NOME_ALUNO]!\n\nEspero que esta mensagem lhe encontre bem.\n\nO agendamento da EPVA é realizado de forma exclusiva pelo próprio aluno diretamente na plataforma, utilizando seu acesso com RA e senha.\n\nNós tutores não temos acesso a essa ferramenta de agendamento. Portanto, por gentileza, peço que acompanhe atentamente sua plataforma para identificar as datas e horários disponíveis e realizar o seu agendamento assim que possível.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
     },
     {
         "id": 6,
-        "titulo": "DOCUMENTOS PARA ENVIAR NA PLATAFORMA DE ESTÁGIO",
-        "texto": "Olá, [NOME_ALUNO]!\n\nOs documentos necessários para a submissão do estágio são a Ficha de Estágio (assinada pela direção da escola e com firma reconhecida em cartório), a Ficha Descritiva (preenchida e assinada diariamente pela professora) e o Relatório de Estágio (digitado e formatado conforme as normas da ABNT). As fichas devem ser unidas em um único arquivo PDF e o relatório em outro arquivo PDF separado para envio na plataforma.\n\nÉ essencial seguir as orientações contidas no Fórum de Orientação, nos manuais disponibilizados na plataforma.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h"
+        "titulo": "6- Documentos para Enviar na Plataforma de Estágio",
+        "texto": "Olá, [NOME_ALUNO]!\n\nEspero que esta mensagem lhe encontre bem.\n\nOs documentos necessários para a submissão do estágio são a Ficha de Estágio (assinada pela direção da escola e com firma reconhecida em cartório), a Ficha Descritiva (preenchida e assinada diariamente pela professora) e o Relatório de Estágio (digitado e formatado conforme as normas da ABNT). As fichas devem ser unidas em um único arquivo PDF e o relatório em outro arquivo PDF separado para envio na plataforma.\n\nÉ essencial seguir as orientações contidas no Fórum de Orientação, nos manuais disponibilizados na plataforma.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
     },
     {
         "id": 7,
-        "titulo": "DEPENDENCIA DO ESTÁGIO",
-        "texto": "Olá, [NOME_ALUNO]!\n\nCaso o estágio não seja concluído dentro do prazo da disciplina, ele ficará registrado como dependência (DP).\n\nPara poder realizar o estágio no próximo semestre, você precisará se matricular em dependência quando houver uma nova oferta disponível na plataforma.\n\nPara realizar sua matrícula de dependência, siga os passos:\nMINHA SECRETARIA.\nMATRÍCULAS EM DEPENDÊNCIA\nDisciplina em DEPENDÊNCIA\nESCOLHA A DISCIPLINA e confirme.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
+        "titulo": "7- Dependência do Estágio",
+        "texto": "Olá, [NOME_ALUNO]!\n\nEspero que esta mensagem lhe encontre bem.\n\nCaso o estágio não seja concluído dentro do prazo da disciplina, ele ficará registrado como dependência (DP).\n\nPara poder realizar o estágio no próximo semestre, você precisará se matricular em dependência quando houver uma nova oferta disponível na plataforma.\n\nPara realizar sua matrícula de dependência, siga os passos:\nMINHA SECRETARIA.\nMATRÍCULAS EM DEPENDÊNCIA\nDisciplina em DEPENDÊNCIA\nESCOLHA A DISCIPLINA e confirme.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
     },
     {
         "id": 8,
-        "titulo": "REABERTURA DA PLATAFORMA DE ESTAGIO",
-        "texto": "Olá, [NOME_ALUNO]!\n\nSua solicitação de reabertura da plataforma para correção do estágio foi encaminhada ao setor de estágio.\n\nPara solucionar a situação, aguarde a liberação por parte do setor.\n\nPor gentileza, acompanhe sua plataforma.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
+        "titulo": "8- Reabertura da Plataforma de Estágio",
+        "texto": "Olá, [NOME_ALUNO]!\n\nEspero que esta mensagem lhe encontre bem.\n\nSua solicitação de reabertura da plataforma para correção do estágio foi encaminhada ao setor de estágio.\n\nPara solucionar a situação, aguarde a liberação por parte do setor.\n\nPor gentileza, acompanhe sua plataforma.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
     },
     {
         "id": 9,
-        "titulo": "COMO ELABORAR O RELATÓRIO DE ESTÁGIO",
-        "texto": "Olá, [NOME_ALUNO]!\n\nConforme as orientações, o relatório de estágio deve ser elaborado com base nas observações e anotações registradas na ficha descritiva. Para realizar o seu relatório, deve-se seguir o Manual disponível no fórum de orientação.\n\nPara verificar todos os detalhes sobre a elaboração e formatação do relatório, por gentileza, consulte o Manual de Trabalhos Acadêmicos.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
+        "titulo": "9- Elaborar o Relatório de Estágio",
+        "texto": "Olá, [NOME_ALUNO]!\n\nEspero que esta mensagem lhe encontre bem.\n\nConforme as orientações, o relatório de estágio deve ser elaborado com base nas observações e anotações registradas na ficha descritiva. Para realizar o seu relatório, deve-se seguir o Manual disponível no fórum de orientação.\n\nPara verificar todos os detalhes sobre a elaboração e formatação do relatório, por gentileza, consulte o Manual de Trabalhos Acadêmicos.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
     },
     {
         "id": 10,
-        "titulo": "SOBRE CONCLUSÃO DE CURSO DE PEDAGOGIA",
-        "texto": "Olá, [NOME_ALUNO]!\n\nO curso de Pedagogia inclui diferentes etapas. A conclusão de todas as disciplinas, incluindo os estágios, depende da sua matriz curricular e do planejamento acadêmico modular.\n\nPara obter informações precisas sobre todas as disciplinas restantes em seu currículo e confirmar se a conclusão de todos os estágios se alinha com a sua previsão de formatura, por gentileza, acompanhe seu boletim de notas na plataforma ou consulte diretamente a coordenação do curso de Pedagogia.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
+        "titulo": "10- Conclusão de Curso de Pedagogia",
+        "texto": "Olá, [NOME_ALUNO]!\n\nEspero que esta mensagem lhe encontre bem.\n\nO curso de Pedagogia inclui diferentes etapas. A conclusão de todas as disciplinas, incluindo os estágios, depende da sua matriz curricular e do planejamento acadêmico modular.\n\nPara obter informações precisas sobre todas as disciplinas restantes em seu currículo e confirmar se a conclusão de todos os estágios se alinha com a sua previsão de formatura, por gentileza, acompanhe seu boletim de notas na plataforma ou consulte diretamente a coordenação do curso de Pedagogia.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
     },
     {
         "id": 11,
-        "titulo": "SOBRE ACESSIBILIDADE PLATAFORMA",
-        "texto": "Olá, [NOME_ALUNO]!\n\nA plataforma passou por atualizações que alteraram a forma de utilização de algumas ferramentas.\n\nQuestões e dificuldades técnicas relativas ao funcionamento da plataforma e suas funcionalidades são tratadas diretamente pelo suporte técnico da universidade.\nAssim, por gentileza, peço que entre em contato com o suporte para verificar a situação e oferecer uma assistência a respeito.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
+        "titulo": "11- Acessibilidade Plataforma",
+        "texto": "Olá, [NOME_ALUNO]!\n\nEspero que esta mensagem lhe encontre bem.\n\nA plataforma passou por atualizações que alteraram a forma de utilização de algumas ferramentas.\n\nQuestões e dificuldades técnicas relativas ao funcionamento da plataforma e suas funcionalidades são tratadas diretamente pelo suporte técnico da universidade.\nAssim, por gentileza, peço que entre em contato com o suporte para verificar a situação e oferecer uma assistência a respeito.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
     },
     {
         "id": 12,
-        "titulo": "SEMESTRE EAD vs SEMESTRE PRESENCIAL",
-        "texto": "Olá, [NOME_ALUNO]!\n\nConforme a estrutura acadêmica, o contrato de matrícula não é o documento que apresenta em qual semestre específico da grade curricular você está cursando.\n\nEssa informação, que reflete sua progressão no curso, geralmente pode ser visualizada na sua plataforma do aluno, acompanhando o boletim de notas e as disciplinas matriculadas no módulo vigente.\n\nÉ importante ressaltar que a organização semestral para cursos na modalidade a distância pode ter uma estrutura diferente daquela dos cursos presenciais, funcionando por módulos.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
+        "titulo": "12- Semestre Ead vs Presencial",
+        "texto": "Olá, [NOME_ALUNO]!\n\nEspero que esta mensagem lhe encontre bem.\n\nConforme a estrutura acadêmica, o contrato de matrícula não é o documento que apresenta em qual semestre específico da grade curricular você está cursando.\n\nEssa informação, que reflete sua progressão no curso, geralmente pode ser visualizada na sua plataforma do aluno, acompanhando o boletim de notas e as disciplinas matriculadas no módulo vigente.\n\nÉ importante ressaltar que a organização semestral para cursos na modalidade a distância pode ter uma estrutura diferente daquela dos cursos presenciais, funcionando por módulos.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
     },
     {
         "id": 13,
-        "titulo": "TERMO CREDENCIAMENTO DE ESTÁGIO",
-        "texto": "Olá, [NOME_ALUNO]!\n\nO termo de credenciamento refere-se a solicitação de estágio, que fica na escola para cadastro, e a autorização de realização do estágio, que deve ser assinada pela direção da escola.\n\nÉ fundamental utilizar o documento completo, \"Termo de Credenciamento e Solicitação de Estágio\", pois ele formaliza e garante a sua autorização para realizar o estágio na instituição escolhida.\n\nEste não deve ser enviado na plataforma, apenas deverá ser guardado pelo estudante para consulta posterior caso haja necessidade.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
+        "titulo": "13- Termo Credenciamento de Estágio",
+        "texto": "Olá, [NOME_ALUNO]!\n\nEspero que esta mensagem lhe encontre bem.\n\nO termo de credenciamento refere-se a solicitação de estágio, que fica na escola para cadastro, e a autorização de realização do estágio, que deve ser assinada pela direção da escola.\n\nÉ fundamental utilizar o documento completo, \"Termo de Credenciamento e Solicitação de Estágio\", pois ele formaliza e garante a sua autorização para realizar o estágio na instituição escolhida.\n\nEste não deve ser enviado na plataforma, apenas deverá ser guardado pelo estudante para consulta posterior caso haja necessidade.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
     },
     {
         "id": 14,
-        "titulo": "DATA DE VIGÊNCIA DO CURSO vs DATA DE ENTREGA DAS ATIVIDADES/ESTÁGIO.",
-        "texto": "Olá, [NOME_ALUNO]!\n\nÉ importante esclarecer que a data de vigência da disciplina é diferente da data de entrega dos estágios/ atividades.\n\nExemplo, você tem um semestre que vai de 01/01/202x e vai até 01/06/202x - esta data é a vigência do curso.\n\nNo entanto, seu professor lhe passou uma atividade que precisa ser entregue até a data de 05/05/202x esta seria a data de entrega do seu trabalho.\n\nCaso não seja possível realizar a entrega ou conclusão da disciplina dentro da data limite de entrega estabelecida, a disciplina ficará registrada como dependência (DP). Cursar a disciplina como dependência em um próximo semestre é a forma de poder realizar a disciplina em um período posterior.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
+        "titulo": "14- Data de Vigência do Curso vs Data de Entrega.",
+        "texto": "Olá, [NOME_ALUNO]!\n\nEspero que esta mensagem lhe encontre bem.\n\nÉ importante esclarecer que a data de vigência da disciplina é diferente da data de entrega dos estágios/ atividades.\n\nExemplo, você tem um semestre que vai de 01/01/202x e vai até 01/06/202x - esta data é a vigência do curso.\n\nNo entanto, seu professor lhe passou uma atividade que precisa ser entregue até a data de 05/05/202x esta seria a data de entrega do seu trabalho.\n\nCaso não seja possível realizar a entrega ou conclusão da disciplina dentro da data limite de entrega estabelecida, a disciplina ficará registrada como dependência (DP). Cursar a disciplina como dependência em um próximo semestre é a forma de poder realizar a disciplina em um período posterior.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
     },
     {
         "id": 15,
-        "titulo": "DADOS DA INSTITUIÇÃO - UNINOVE",
-        "texto": "Olá, [NOME_ALUNO]!\n\nSeguem os dados da Instituição:\nEntidade Mantenedora: Associação Educacional Nove de Julho \nEntidade Mantida: Universidade Nove de Julho Autorização: \nPort. Mec nº 227 de 22/05/2013\n CNPJ: 43.374.768/0001-38 \nEndereço: Rua Diamantina, 302 - Vila Maria - Cep. 02117-010 - São Paulo/SP \nCPF: 402.967028-89 \nE-mail: andrelr@uninove.br \nTelefone: (11) 3385-9061 \nOrientador de Estágio: André Luiz Rodrigues \nCoordenadora: Luciana Cicutto Mortarello\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
+        "titulo": "15- Dados da Instituição - Uninove",
+        "texto": "Olá, [NOME_ALUNO]!\n\nEspero que esta mensagem lhe encontre bem.\n\nSeguem os dados da Instituição:\nEntidade Mantenedora: Associação Educacional Nove de Julho \nEntidade Mantida: Universidade Nove de Julho Autorização: \nPort. Mec nº 227 de 22/05/2013\n CNPJ: 43.374.768/0001-38 \nEndereço: Rua Diamantina, 302 - Vila Maria - Cep. 02117-010 - São Paulo/SP \nCPF: 402.967028-89 \nE-mail: andrelr@uninove.br \nTelefone: (11) 3385-9061 \nOrientador de Estágio: André Luiz Rodrigues \nCoordenadora: Luciana Cicutto Mortarello\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
     },
     {
         "id": 16,
-        "titulo": "DOCUMENTOS NECESSÁRIOS PARA A REALIZAÇÃO DO ESTÁGIO ATUAL",
-        "texto": "Olá, [NOME_ALUNO]!\n\nOs documentos necessários para a realização e comprovação do estágio supervisionado, como a Ficha de Estágio, a Ficha Descritiva e o Termo de Credenciamento, seguem um padrão e os modelos são disponibilizados no fórum de orientação ao lado do enunciado.\n\nÉ importante ressaltar que cada disciplina de estágio supervisionado possui um foco e objetivos específicos. Isso significa que, embora os tipos de documentos possam ser idênticos, o conteúdo a ser registrado na Ficha Descritiva, refletindo suas observações e atividades, e a elaboração do Relatório de Estágio serão específicos para esta etapa.\n\nPara confirmar os documentos exatos e os modelos a serem utilizados para a disciplina de estágio que você está cursando, por gentileza, consulte atentamente o Fórum de Orientação e o Manual de Estágio. Nesses materiais, estão esclarecidas todas as dúvidas sobre a documentação específica para esta etapa do estágio.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
+        "titulo": "16- Documentos Necessários para a Realização do Estágio Atual",
+        "texto": "Olá, [NOME_ALUNO]!\n\nEspero que esta mensagem lhe encontre bem.\n\nOs documentos necessários para a realização e comprovação do estágio supervisionado, como a Ficha de Estágio, a Ficha Descritiva e o Termo de Credenciamento, seguem um padrão e os modelos são disponibilizados no fórum de orientação ao lado do enunciado.\n\nÉ importante ressaltar que cada disciplina de estágio supervisionado possui um foco e objetivos específicos. Isso significa que, embora os tipos de documentos possam ser idênticos, o conteúdo a ser registrado na Ficha Descritiva, refletindo suas observações e atividades, e a elaboração do Relatório de Estágio serão específicos para esta etapa.\n\nPara confirmar os documentos exatos e os modelos a serem utilizados para a disciplina de estágio que você está cursando, por gentileza, consulte atentamente o Fórum de Orientação e o Manual de Estágio. Nesses materiais, estão esclarecidas todas as dúvidas sobre a documentação específica para esta etapa do estágio.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
     },
     {
         "id": 17,
-        "titulo": "MODO DE COMO ENVIAR OS DOCUMENTOS NA PLATAFORMA",
-        "texto": "Olá, [NOME_ALUNO]!\n\nLembre-se de que todos os documentos devem ser entregues no mesmo dia. \n\nOs documentos necessários são a Ficha de Estágio (assinada e com firma reconhecida), a Ficha Descritiva (preenchida e assinada) e o Relatório de Estágio (digitado e seguindo as normas da ABNT).\n\nPara enviar a documentação do seu estágio supervisionado, você deve seguir os passos abaixo na Central do Aluno:\nAcesse a Central do Aluno.\nVá em \"Meus Links\".\nClique em \"Controle de Atividades\".\nSelecione \"TCC/PROJETO/ESTÁGIO\".\nSubmeta as fichas descritivas e a ficha de estágio em um único documento PDF.\n\nEnvie o relatório em um documento PDF separado.\n\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
+        "titulo": "17-Enviar os Documentos na Plataforma",
+        "texto": "Olá, [NOME_ALUNO]!\n\nEspero que esta mensagem lhe encontre bem.\n\nLembre-se de que todos os documentos devem ser entregues no mesmo dia. \n\nOs documentos necessários são a Ficha de Estágio (assinada e com firma reconhecida), a Ficha Descritiva (preenchida e assinada) e o Relatório de Estágio (digitado e seguindo as normas da ABNT).\n\nPara enviar a documentação do seu estágio supervisionado, você deve seguir os passos abaixo na Central do Aluno:\nAcesse a Central do Aluno.\nVá em \"Meus Links\".\nClique em \"Controle de Atividades\".\nSelecione \"TCC/PROJETO/ESTÁGIO\".\nSubmeta as fichas descritivas e a ficha de estágio em um único documento PDF.\n\nEnvie o relatório em um documento PDF separado.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
     },
     {
         "id": 18,
-        "titulo": "ESTÁGIO II NA MESMA ESCOLA QUE ESTÁGIO I",
-        "texto": "Olá, [NOME_ALUNO]!\n\nConforme as orientações, o foco do estágio curricular supervisionado II é em Educação Infantil, especificamente com crianças de 4 e 5 anos.\n\nSe o CEI onde você realizou o estágio anterior atende a essa faixa etária, ele pode ser considerado um local elegível para a realização deste estágio, desde que você possa cumprir a carga horária observando e interagindo com crianças dentro da faixa etária de 4 e 5 anos, conforme a demanda da disciplina.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
+        "titulo": "18- Estágio II na Mesma Escola que Estágio I",
+        "texto": "Olá, [NOME_ALUNO]!\n\nEspero que esta mensagem lhe encontre bem.\n\nConforme as orientações, o foco do estágio curricular supervisionado II é em Educação Infantil, especificamente com crianças de 4 e 5 anos.\n\nSe o CEI onde você realizou o estágio anterior atende a essa faixa etária, ele pode ser considerado um local elegível para a realização deste estágio, desde que você possa cumprir a carga horária observando e interagindo com crianças dentro da faixa etária de 4 e 5 anos, conforme a demanda da disciplina.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
     },
     {
         "id": 19,
-        "titulo": "O QUE É E COMO GERA A APÓLICE SEGURO",
-        "texto": "Olá, [NOME_ALUNO]!\n\nA apólice de seguro é um documento que comprova sua cobertura por um seguro. Para o estágio, ela serve para garantir proteção em caso de acidentes que possam ocorrer durante as atividades.\n\nEm relação a como obtê-la, a apólice é emitida automaticamente. Há um prazo aproximado de 40 dias para a emissão. Não é necessário solicitar a emissão por meio do chat ou fórum. Caso enfrente dificuldades relacionadas ao seguro, há um contato da Central do Segurado da MetLife disponível para suporte.\n\nSobre a obrigatoriedade, o seguro de estágio não é obrigatório de forma geral. Ele só se tornará necessário caso a escola onde você realizará o estágio solicite no momento do credenciamento.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
+        "titulo": "19- O que é e Como Gera a Apólice Seguro",
+        "texto": "Olá, [NOME_ALUNO]!\n\nEspero que esta mensagem lhe encontre bem.\n\nA apólice de seguro é um documento que comprova sua cobertura por um seguro. Para o estágio, ela serve para garantir proteção em caso de acidentes que possam ocorrer durante as atividades.\n\nEm relação a como obtê-la, a apólice é emitida automaticamente. Há um prazo aproximado de 40 dias para a emissão. Não é necessário solicitar a emissão por meio do chat ou fórum. Caso enfrente dificuldades relacionadas ao seguro, há um contato da Central do Segurado da MetLife disponível para suporte.\n\nSobre a obrigatoriedade, o seguro de estágio não é obrigatório de forma geral. Ele só se tornará necessário caso a escola onde você realizará o estágio solicite no momento do credenciamento.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
     },
     {
         "id": 20,
-        "titulo": "CARGA HORÁRIA ESTÁGIO + RELATÓRIO",
-        "texto": "Olá, [NOME_ALUNO]!\n\nA carga horária total do estágio supervisionado é de 75 horas. Essa carga horária é dividida em 50 horas de observação, que são realizadas presencialmente na escola, e 25 horas destinadas à elaboração do relatório final.\n\nAs 25 horas reservadas para o relatório não precisam ser cumpridas em sala de aula ou na escola. Elas correspondem ao tempo necessário para você organizar suas anotações, refletir sobre suas observações e redigir o documento final, e podem ser realizadas fora do ambiente escolar.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
+        "titulo": "20- Carga Horária Estágio + Relatório",
+        "texto": "Olá, [NOME_ALUNO]!\n\nEspero que esta mensagem lhe encontre bem.\n\nA carga horária total do estágio supervisionado é de 75 horas. Essa carga horária é dividida em 50 horas de observação, que são realizadas presencialmente na escola, e 25 horas destinadas à elaboração do relatório final.\n\nAs 25 horas reservadas para o relatório não precisam ser cumpridas em sala de aula ou na escola. Elas correspondem ao tempo necessário para você organizar suas anotações, refletir sobre suas observações e redigir o documento final, e podem ser realizadas fora do ambiente escolar.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
     },
     {
         "id": 21,
-        "titulo": "PORCENTAGEM SOBRE OS CONTEÚDOS",
-        "texto": "Olá, [NOME_ALUNO]!\n\nA porcentagem de cumprimento da disciplina exibida na plataforma é uma ferramenta que se atualiza à medida que você marca os conteúdos disponíveis como \"feito\".\n\nEssa funcionalidade é voltada para o acompanhamento da sua interação com materiais teóricos e NÃO impacta diretamente suas notas ou a avaliação da disciplina.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
+        "titulo": "21- Porcentagem Sobre os Conteúdos",
+        "texto": "Olá, [NOME_ALUNO]!\n\nEspero que esta mensagem lhe encontre bem.\n\nA porcentagem de cumprimento da disciplina exibida na plataforma é uma ferramenta que se atualiza à medida que você marca os conteúdos disponíveis como \"feito\".\n\nEssa funcionalidade é voltada para o acompanhamento da sua interação com materiais teóricos e NÃO impacta diretamente suas notas ou a avaliação da disciplina.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
     },
     {
         "id": 22,
-        "titulo": "PORCENTAGEM PARA ESTÁGIOS",
-        "texto": "Olá, [NOME_ALUNO]!\n\nA porcentagem é voltada para o acompanhamento da sua interação com materiais teóricos e NÃO impacta diretamente suas notas ou a avaliação da disciplina.\n\nNo caso das disciplinas de estágio, a aprovação e o registro de conclusão são baseados na realização das atividades práticas supervisionadas na escola e na entrega completa e correta da documentação exigida, como as fichas e o relatório, que são os componentes avaliativos centrais desta disciplina.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
+        "titulo": "22- Porcentagem para Estágios",
+        "texto": "Olá, [NOME_ALUNO]!\n\nEspero que esta mensagem lhe encontre bem.\n\nNo caso das disciplinas de estágio, a aprovação e o registro de conclusão são baseados na realização das atividades práticas supervisionadas na escola e na entrega completa e correta da documentação exigida, como as fichas e o relatório, que são os componentes avaliativos centrais desta disciplina.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
     },
     {
         "id": 23,
-        "titulo": "ESCOLAS PÚBLICAS ou ESCOLAS PARTICULARES (Educação Infantil)",
-        "texto": "Olá, [NOME_ALUNO]!\n\nO estágio curricular supervisionado pode ser realizado tanto em escolas particulares quanto em escolas públicas.\n\nO fundamental é que a instituição seja uma escola regular e atenda à faixa etária de foco do estágio que você está cursando (atualmente, Educação Infantil de 0 a 5 anos).\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
+        "titulo": "23- Escolas Públicas ou Particulares (Educação Infantil)",
+        "texto": "Olá, [NOME_ALUNO]!\n\nEspero que esta mensagem lhe encontre bem.\n\nO estágio curricular supervisionado pode ser realizado tanto em escolas particulares quanto em escolas públicas.\n\nO fundamental é que a instituição seja uma escola regular e atenda à faixa etária de foco do estágio que você está cursando (atualmente, Educação Infantil de 0 a 5 anos).\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
     },
     {
         "id": 24,
-        "titulo": "ESCOLAS PÚBLICAS ou ESCOLAS PARTICULARES (Estágio II)",
-        "texto": "Olá, [NOME_ALUNO]!\n\nO estágio curricular supervisionado pode ser realizado tanto em escolas particulares quanto em escolas públicas.\n\nO fundamental é que a instituição seja uma escola regular e atenda à faixa etária de foco do estágio que você está cursando (atualmente com foco em crianças de 4 e 5 anos para o Estágio II)."
+        "titulo": "24- Escolas Públicas ou Particulares (Estágio II)",
+        "texto": "Olá, [NOME_ALUNO]!\n\nEspero que esta mensagem lhe encontre bem.\n\nO estágio curricular supervisionado pode ser realizado tanto em escolas particulares quanto em escolas públicas.\n\nO fundamental é que a instituição seja uma escola regular e atenda à faixa etária de foco do estágio que você está cursando (atualmente com foco em crianças de 4 e 5 anos para o Estágio II).\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
     },
     {
         "id": 25,
-        "titulo": "NÃO CONSIGO ABRIR O DOCUMENTO DO FÓRUM",
-        "texto": "Olá, [NOME_ALUNO]!\n\nConforme as orientações, os modelos dos documentos de estágio são disponibilizados no ambiente virtual de aprendizagem (AVA), na disciplina de estágio. A recomendação, caso esteja com problemas para abri-los, é tentar acessar a plataforma diretamente pelo navegador de internet em um computador e baixar os arquivos por lá, pois alguns recursos podem não ser totalmente compatíveis com acessos via aplicativo.\n\nPor gentileza, tente acessar a disciplina de estágio pelo navegador para baixar e imprimir os documentos necessários.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
+        "titulo": "25- Não Consigo Abrir o Documento do Fórum",
+        "texto": "Olá, [NOME_ALUNO]!\n\nEspero que esta mensagem lhe encontre bem.\n\nConforme as orientações, os modelos dos documentos de estágio são disponibilizados no ambiente virtual de aprendizagem (AVA), na disciplina de estágio. A recomendação, caso esteja com problemas para abri-los, é tentar acessar a plataforma diretamente pelo navegador de internet em um computador e baixar os arquivos por lá, pois alguns recursos podem não ser totalmente compatíveis com acessos via aplicativo.\n\nPor gentileza, tente acessar a disciplina de estágio pelo navegador para baixar e imprimir os documentos necessários.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
     },
     {
         "id": 26,
-        "titulo": "O ESTÁGIO É OBRIGATÓRIO",
-        "texto": "Olá, [NOME_ALUNO]!\n\nConforme as orientações e a regulamentação dos cursos de Licenciatura, o Estágio Curricular Supervisionado é um componente obrigatório da matriz curricular.\n\nA realização completa dos estágios é uma exigência para cumprir a carga horária mínima definida pelo Ministério da Educação (MEC) e, portanto, é indispensável para a conclusão do curso e para que você possa obter o seu diploma.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
+        "titulo": "26- O Estágio é Obrigatório",
+        "texto": "Olá, [NOME_ALUNO]!\n\nEspero que esta mensagem lhe encontre bem.\n\nConforme as orientações e a regulamentação dos cursos de Licenciatura, o Estágio Curricular Supervisionado é um componente obrigatório da matriz curricular.\n\nA realização completa dos estágios é uma exigência para cumprir a carga horária mínima definida pelo Ministério da Educação (MEC) e, portanto, é indispensável para a conclusão do curso e para que você possa obter o seu diploma.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
     },
     {
         "id": 27,
-        "titulo": "ORIENTADOR E COORDENADOR DO CURSO",
-        "texto": "Olá, [NOME_ALUNO]!\n\nO nome a ser colocado na capa, referente ao orientador, é o do Orientador de Estágio. Orientador de Estágio é André Luiz Rodrigues.\n\nA título de conhecimento o nome da Coordenadora do Curso, Luciana Cicutto Mortarello.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
+        "titulo": "27- Orientador e Coordenador do Curso",
+        "texto": "Olá, [NOME_ALUNO]!\n\nEspero que esta mensagem lhe encontre bem.\n\nO nome a ser colocado na capa, referente ao orientador, é o do Orientador de Estágio. Orientador de Estágio é André Luiz Rodrigues.\n\nA título de conhecimento o nome da Coordenadora do Curso, Luciana Cicutto Mortarello.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
     },
     {
         "id": 28,
-        "titulo": "HAVERÁ ESTÁGIO TODOS OS SEMESTRES",
-        "texto": "Olá, [NOME_ALUNO]!\n\nConforme a regulamentação, as horas de Estágio Curricular Supervisionado são distribuídas ao longo do programa de formação, iniciando desde o primeiro semestre. \n\nO objetivo é integralizar uma carga horária total necessária para a conclusão do curso.\n\nIsso significa que há, sim, componentes de estágio previstos para serem realizados em diferentes semestres da sua jornada acadêmica. Para saber a organização exata e em quais semestres específicos as disciplinas de estágio serão oferecidas em sua grade, por gentileza, acompanhe a disponibilização das disciplinas na plataforma a cada módulo/semestre.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
+        "titulo": "28- Haverá Estágio Todos os Semestres",
+        "texto": "Olá, [NOME_ALUNO]!\n\nEspero que esta mensagem lhe encontre bem.\n\nConforme a regulamentação, as horas de Estágio Curricular Supervisionado são distribuídas ao longo do programa de formação, iniciando desde o primeiro semestre. \n\nO objetivo é integralizar uma carga horária total necessária para a conclusão do curso.\n\nIsso significa que há, sim, componentes de estágio previstos para serem realizados em diferentes semestres da sua jornada acadêmica. Para saber a organização exata e em quais semestres específicos as disciplinas de estágio serão oferecidas em sua grade, por gentileza, acompanhe a disponibilização das disciplinas na plataforma a cada módulo/semestre.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
     },
     {
         "id": 29,
-        "titulo": "CNPJ DA ESCOLA - CNPJ APM",
-        "texto": "Olá, [NOME_ALUNO]!\n\nNestes casos, é um procedimento usual utilizar o CNPJ da Associação de Pais e Mestres (APM) da escola para o preenchimento da ficha.\n\nPor gentileza, confirme com a direção ou secretaria da escola se o CNPJ da APM para ser inserido na sua Ficha de Estágio.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
+        "titulo": "29- Cnpj da Escola - Cnpj APM",
+        "texto": "Olá, [NOME_ALUNO]!\n\nEspero que esta mensagem lhe encontre bem.\n\nNestes casos, é um procedimento usual utilizar o CNPJ da Associação de Pais e Mestres (APM) da escola para o preenchimento da ficha.\n\nPor gentileza, confirme com a direção ou secretaria da escola se o CNPJ da APM para ser inserido na sua Ficha de Estágio.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
     },
     {
         "id": 30,
-        "titulo": "DIRETORA NÃO PODERÁ ASSINAR",
-        "texto": "Olá, [NOME_ALUNO]!\n\nA assinatura na Ficha de Estágio diante da ausência da diretora, as orientações preveem uma alternativa. Se a diretora estiver impossibilitada de assinar, a Ficha de Estágio poderá ser assinada pela Coordenadora da escola. No entanto, ao fazer isso, é necessário seguir um procedimento adicional: você deverá incluir uma carta explicativa sobre o motivo da assinatura ser da Coordenadora e não da Diretora. Esta carta, que você deverá apresentar junto com os documentos, também precisa ter sua assinatura reconhecida em cartório e deve estar acompanhada do carimbo da escola.\n\nPortanto, você precisará que a Ficha de Estágio seja assinada pela Coordenadora (se a diretora não puder) e providenciar a carta explicativa com reconhecimento de firma e carimbo, para então submeter toda a documentação completa na plataforma.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
+        "titulo": "30- Diretora Não Poderá Assinar",
+        "texto": "Olá, [NOME_ALUNO]!\n\nEspero que esta mensagem lhe encontre bem.\n\nA assinatura na Ficha de Estágio diante da ausência da diretora, as orientações preveem uma alternativa. Se a diretora estiver impossibilitada de assinar, a Ficha de Estágio poderá ser assinada pela Coordenadora da escola. No entanto, ao fazer isso, é necessário seguir um procedimento adicional: você deverá incluir uma carta explicativa sobre o motivo da assinatura ser da Coordenadora e não da Diretora. Esta carta, que você deverá apresentar junto com os documentos, também precisa ter sua assinatura reconhecida em cartório e deve estar acompanhada do carimbo da escola.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
     },
     {
         "id": 31,
-        "titulo": "ENTREGAR DOCUMENTO POR PARTES",
-        "texto": "Olá, [NOME_ALUNO]!\n\nReferente à possibilidade de anexar parte da documentação agora e a ficha assinada depois, conforme as orientações para a entrega do estágio na plataforma, todos os documentos necessários (Ficha de Estágio, Fichas Descritivas e Relatório) devem ser submetidos juntos em um único envio. Não é possível realizar entregas parciais dos documentos.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
+        "titulo": "31- Entregar Documento por Partes",
+        "texto": "Olá, [NOME_ALUNO]!\n\nEspero que esta mensagem lhe encontre bem.\n\nReferente à possibilidade de anexar parte da documentação agora e a ficha assinada depois, conforme as orientações para a entrega do estágio na plataforma, todos os documentos necessários (Ficha de Estágio, Fichas Descritivas e Relatório) devem ser submetidos juntos em um único envio. Não é possível realizar entregas parciais dos documentos.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
     },
     {
         "id": 32,
-        "titulo": "QUAL A DATA DE ENTREGA DO ESTÁGIO",
-        "texto": "Olá, [NOME_ALUNO]!\n\nConforme as orientações disponíveis, a data para a entrega do seu estágio está indicada no Fórum de Orientação da disciplina.\n\nPor gentileza, consulte atentamente o Fórum de Orientação, pois ele contém todas as informações necessárias sobre os prazos para a submissão dos documentos.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
+        "titulo": "32- Qual a Data de Entrega do Estágio",
+        "texto": "Olá, [NOME_ALUNO]!\n\nEspero que esta mensagem lhe encontre bem.\n\nConforme as orientações disponíveis, a data para a entrega do seu estágio está indicada no Fórum de Orientação da disciplina.\n\nPor gentileza, consulte atentamente o Fórum de Orientação, pois ele contém todas as informações necessárias sobre os prazos para a submissão dos documentos.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
     },
     {
         "id": 33,
-        "titulo": "COMO INICIAR O ESTÁGIO",
-        "texto": "Olá, [NOME_ALUNO]!\n\nA disciplina de estágio supervisionado é disponibilizada na plataforma, incluindo o fórum com as orientações necessárias, o que indica que você pode iniciar os procedimentos para a realização do estágio.\n\nNo entanto, antes de começar as atividades de observação na escola, é fundamental que você encontre uma instituição (escola pública ou particular que atenda à faixa etária do estágio) e formalize o estágio junto a ela. Isso envolve apresentar à escola a Carta de Apresentação e o Termo de Compromisso, devidamente preenchidos.\n\nVocê poderá iniciar as atividades de estágio na escola após a instituição concedente analisar a documentação apresentada e conceder a autorização. Portanto, o processo começa com a disponibilização da disciplina e se concretiza após a formalização com a escola.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
+        "titulo": "33- Como Iniciar o Estágio",
+        "texto": "Olá, [NOME_ALUNO]!\n\nEspero que esta mensagem lhe encontre bem.\n\nA disciplina de estágio supervisionado é disponibilizada na plataforma, incluindo o fórum com as orientações necessárias, o que indica que você pode iniciar os procedimentos para a realização do estágio.\n\nNo entanto, antes de começar as atividades de observação na escola, é fundamental que você encontre uma instituição (escola pública ou particular que atenda à faixa etária do estágio) e formalize o estágio junto a ela. Isso envolve apresentar à escola a Carta de Apresentação e o Termo de Compromisso, devidamente preenchidos.\n\nVocê poderá iniciar as atividades de estágio na escola após a instituição concedente analisar a documentação apresentada e conceder a autorização. Portanto, o processo começa com a disponibilização da disciplina e se concretiza após a formalização com a escola.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
     },
     {
         "id": 34,
-        "titulo": "PODE ESTAGIAR DURANTE AS FÉRIAS ESCOLAR",
-        "texto": "Olá, [NOME_ALUNO]!\n\nO Estágio Curricular Supervisionado é uma atividade que visa a observação e a vivência das rotinas e práticas pedagógicas que ocorrem no cotidiano do ano letivo regular da escola.\n\nDessa forma, as horas de estágio são registradas com base na participação e observação das aulas e atividades que fazem parte do calendário escolar e do funcionamento normal da instituição de ensino. Atividades realizadas durante recessos ou em contextos de cursos de férias, embora ocorram no ambiente escolar, podem não se enquadrar como parte das práticas pedagógicas regulares exigidas para o cumprimento da carga horária do estágio obrigatório.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
+        "titulo": "34- Pode Estagiar Durante as Férias Escolar",
+        "texto": "Olá, [NOME_ALUNO]!\n\nEspero que esta mensagem lhe encontre bem.\n\nO Estágio Curricular Supervisionado é uma atividade que visa a observação e a vivência das rotinas e práticas pedagógicas que ocorrem no cotidiano do ano letivo regular da escola.\n\nDessa forma, as horas de estágio são registradas com base na participação e observação das aulas e atividades que fazem parte do calendário escolar e do funcionamento normal da instituição de ensino. Atividades realizadas durante recessos ou em contextos de cursos de férias, embora ocorram no ambiente escolar, podem não se enquadrar como parte das práticas pedagógicas regulares exigidas para o cumprimento da carga horária do estágio obrigatório.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
     },
     {
         "id": 35,
-        "titulo": "REALIZAÇÃO DE ESTÁGIO EM OUTRA CIDADE",
-        "texto": "Olá, [NOME_ALUNO]!\n\nSobre o local do estágio, o Estágio Curricular Supervisionado deve ser realizado em escolas regulares (públicas ou particulares) que atendam à faixa etária de foco do estágio que você está cursando. Não há uma restrição geográfica que limite a realização do estágio apenas a escolas na cidade do seu polo ou residência.\n\nPortanto, desde que a instituição atenda aos requisitos da universidade para o estágio (ser uma escola regular e atender à faixa etária correspondente).\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
+        "titulo": "35- Realização de Estágio em Outra Cidade",
+        "texto": "Olá, [NOME_ALUNO]!\n\nEspero que esta mensagem lhe encontre bem.\n\nSobre o local do estágio, o Estágio Curricular Supervisionado deve ser realizado em escolas regulares (públicas ou particulares) que atendam à faixa etária de foco do estágio que você está cursando. Não há uma restrição geográfica que limite a realização do estágio apenas a escolas na cidade do seu polo ou residência.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
     },
     {
         "id": 36,
-        "titulo": "ASSINATURA DO ESTAGIÁRIO",
-        "texto": "Olá, [NOME_ALUNO]!\n\nConforme as orientações para a documentação, sua assinatura como estagiária nos papéis não precisa ser idêntica à registrada em cartório, nem é necessário reconhecer firma na sua assinatura.\n\nA exigência de reconhecimento de firma em cartório aplica-se apenas à assinatura da direção da escola na Ficha de Estágio Supervisionado Obrigatório, para validar a carga horária realizada na instituição.\n\nPortanto, você pode utilizar a assinatura que costuma usar no seu dia a dia nos documentos.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
+        "titulo": "36- Assinatura do Estagiário",
+        "texto": "Olá, [NOME_ALUNO]!\n\nEspero que esta mensagem lhe encontre bem.\n\nConforme as orientações para a documentação, sua assinatura como estagiária nos papéis não precisa ser idêntica à registrada em cartório, nem é necessário reconhecer firma na sua assinatura.\n\nA exigência de reconhecimento de firma em cartório aplica-se apenas à assinatura da direção da escola na Ficha de Estágio Supervisionado Obrigatório, para validar a carga horária realizada na instituição.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
     },
     {
         "id": 37,
-        "titulo": "CAMPO DE ASSINATURA E CPF PARA O PROFESSOR",
-        "texto": "Olá, [NOME_ALUNO]!\n\nO Professor Supervisor de Estágio se refere ao(s) professor(es) da escola onde você realizou as atividades práticas de observação e participação.\n\nSe você acompanhou o estágio com mais de um professor na escola, a orientação é que você preencha o nome e inclua o CPF na Ficha de Estágio do professor com quem você passou a maior parte do tempo do estágio.\n\nEmbora a ficha apresente dois campos para o nome do Professor(a) Supervisor(a) de Estágio e CPF, a instrução para assinatura no final do estágio na Ficha de Estágio menciona o professor com quem você mais acompanhou. Portanto, por gentileza, siga essa orientação para preencher os dados e coletar a assinatura.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
+        "titulo": "37- Campo de Assinatura e Cpf para o Professor",
+        "texto": "Olá, [NOME_ALUNO]!\n\nEspero que esta mensagem lhe encontre bem.\n\nO Professor Supervisor de Estágio se refere ao(s) professor(es) da escola onde você realizou as atividades práticas de observação e participação.\n\nSe você acompanhou o estágio com mais de um professor na escola, a orientação é que você preencha o nome e inclua o CPF na Ficha de Estágio do professor com quem você passou a maior parte do tempo do estágio.\n\nEmbora a ficha apresente dois campos para o nome do Professor(a) Supervisor(a) de Estágio e CPF, a instrução para assinatura no final do estágio na Ficha de Estágio menciona o professor com quem você mais acompanhou. Portanto, por gentileza, siga essa orientação para preencher os dados e coletar a assinatura.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
     },
     {
         "id": 38,
-        "titulo": "DATA NA FICHA DE ESTÁGIO",
-        "texto": "Olá, [NOME_ALUNO]!\n\nConforme as orientações, a assinatura da direção da escola nesta ficha deve ser colhida no último dia de realização das suas atividades de estágio na escola.\n\nO reconhecimento de firma em cartório da assinatura do diretor é feito após a assinatura ser obtida. A entrega de toda a documentação do estágio na plataforma da universidade deve ser feita após a ficha estar completa, com a assinatura da direção e o devido reconhecimento de firma.\n\nPortanto, a assinatura na folha a ser autenticada é coletada no final do período de estágio na escola, e não necessariamente no mesmo dia do envio dos documentos para a universidade, todos os documentos devem ser enviados no mesmo dia.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
+        "titulo": "38- Data na Ficha de Estágio",
+        "texto": "Olá, [NOME_ALUNO]!\n\nEspero que esta mensagem lhe encontre bem.\n\nConforme as orientações, a assinatura da direção da escola nesta ficha deve ser colhida no último dia de realização das suas atividades de estágio na escola.\n\nO reconhecimento de firma em cartório da assinatura do diretor é feito após a assinatura ser obtida. A entrega de toda a documentação do estágio na plataforma da universidade deve ser feita após a ficha estar completa, com a assinatura da direção e o devido reconhecimento de firma.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
     },
     {
         "id": 39,
-        "titulo": "REABERTURA DE ATIVIDADES - ALUNO DIZ QUE FOI ERRO PLATAFORMA",
-        "texto": "Olá, [NOME_ALUNO]!\n\nNormalmente, ao finalizar e submeter uma atividade avaliativa na plataforma, a sua pontuação é registrada automaticamente. A nota mínima necessária para aprovação nas disciplinas de graduação é de 6,0 pontos.\n\nCaso a atividade não tenha sido enviada dentro do prazo, ou se a sua pontuação total na disciplina, considerando todas as atividades avaliativas, não alcançar o mínimo de 6,0 pontos para aprovação, será necessário cursar a disciplina em regime de dependência (DP) no próximo semestre.\n\nPara verificar o status da atividade e sua nota na disciplina, por gentileza, consulte o seu boletim na plataforma.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
+        "titulo": "39- Reabertura de Atividades - Aluno Diz que Foi Erro Plataforma",
+        "texto": "Olá, [NOME_ALUNO]!\n\nEspero que esta mensagem lhe encontre bem.\n\nNormalmente, ao finalizar e submeter uma atividade avaliativa na plataforma, a sua pontuação é registrada automaticamente. A nota mínima necessária para aprovação nas disciplinas de graduação é de 6,0 pontos.\n\nCaso a atividade não tenha sido enviada dentro do prazo, ou se a sua pontuação total na disciplina, considerando todas as atividades avaliativas, não alcançar o mínimo de 6,0 pontos para aprovação, será necessário cursar a disciplina em regime de dependência (DP) no próximo semestre.\n\nPara verificar o status da atividade e sua nota na disciplina, por gentileza, consulte o seu boletim na plataforma.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
     },
     {
         "id": 40,
-        "titulo": "ANÁLISE DE ESTÁGIO - PRAZO - VOU TER NOVA CHANCE",
-        "texto": "Olá, [NOME_ALUNO]!\n\nO processo de avaliação inclui a análise da documentação submetida pelo setor responsável.\n\nSe na avaliação identificar a necessidade de ajustes ou correções, o feedback detalhado será disponibilizado a você diretamente na plataforma. Conforme a natureza das alterações solicitadas, poderá ser concedida a você a oportunidade de corrigir a documentação e realizar um novo envio.\n\nPortanto, é fundamental que você acompanhe atentamente a sua plataforma após a data de avaliação para verificar a devolutiva e as orientações específicas sobre como proceder para realizar as alterações e submeter novamente, caso seja necessário.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
+        "titulo": "40- Prazo de Correção Estágio - Vou Ter Nova Chance",
+        "texto": "Olá, [NOME_ALUNO]!\n\nEspero que esta mensagem lhe encontre bem.\n\nO processo de avaliação inclui a análise da documentação submetida pelo setor responsável.\n\nSe na avaliação identificar a necessidade de ajustes ou correções, o feedback detalhado será disponibilizado a você diretamente na plataforma. Conforme a natureza das alterações solicitadas, poderá ser concedida a você a oportunidade de corrigir a documentação e realizar um novo envio.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
     },
     {
         "id": 41,
-        "titulo": "ENCERRAR CONVERSA",
-        "texto": "Olá, [NOME_ALUNO]!\n\nPara obter esclarecimentos sobre sua situação específica relacionada ao [XXX], por gentileza, entre em contato com a coordenação do seu curso. \n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
+        "titulo": "41- Encerrar Conversa",
+        "texto": "Olá, [NOME_ALUNO]!\n\nEspero que esta mensagem lhe encontre bem.\n\nPara obter esclarecimentos sobre sua situação específica relacionada ao [XXX], por gentileza, entre em contato com a coordenação do seu curso. \n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
     },
     {
         "id": 42,
-        "titulo": "MENSAGEM DE REENVIO DE ESTÁGIO",
-        "texto": "Olá, [NOME_ALUNO]!\n\nAgora o seu estágio passará por uma nova análise pela supervisão responsável.\n\nPor gentileza, acompanhe atentamente a plataforma para verificar a devolutiva do orientador de estágios, que indicará o resultado da análise.\n\nBoa sorte!\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
+        "titulo": "42- Mensagem de Reenvio de Estágio",
+        "texto": "Olá, [NOME_ALUNO]!\n\nEspero que esta mensagem lhe encontre bem.\n\nAgora o seu estágio passará por uma nova análise pela supervisão responsável.\n\nPor gentileza, acompanhe atentamente a plataforma para verificar a devolutiva do orientador de estágios, que indicará o resultado da análise.\n\nBoa sorte!\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
     },
     {
         "id": 43,
-        "titulo": "OBRIGADA",
-        "texto": "Olá, [NOME_ALUNO]!\n\nEsta interação foi encerrada, mas continuamos à disposição para quaisquer necessidades futuras.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
+        "titulo": "43- Obrigada",
+        "texto": "Olá, [NOME_ALUNO]!\n\nEspero que esta mensagem lhe encontre bem.\n\nEsta interação foi encerrada, mas continuamos à disposição para quaisquer necessidades futuras.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
     },
     {
         "id": 44,
-        "titulo": "VÁRIAS MENSAGENS - CHAMAR ATENÇÃO",
-        "texto": "Olá, [NOME_ALUNO]!\n\nRecebemos sua mensagem! \n\nLembre-se de que cada nova mensagem enviada faz com que seu atendimento volte para o final da fila. Nossa equipe responderá o mais breve possível. \n\nAgradecemos sua paciência!"
+        "titulo": "44- Várias Mensagens - Chamar Atenção",
+        "texto": "Olá, [NOME_ALUNO]!\n\nEspero que esta mensagem lhe encontre bem.\n\nRecebemos sua mensagem! \n\nLembre-se de que cada nova mensagem enviada faz com que seu atendimento volte para o final da fila. Nossa equipe responderá o mais breve possível. \n\nAgradecemos sua paciência!\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
     },
     {
         "id": 45,
-        "titulo": "QUEM VAI AO CARTÓRIO RECONHECER FIRMA DA ASSINATURA",
-        "texto": "Olá, [NOME_ALUNO]!\n\nApós a direção da escola assinar a ficha de estágio, a responsabilidade de realizar o reconhecimento de firma em cartório é do estudante.\n\nVocê deverá levar a ficha assinada a um cartório onde a direção da escola possua firma aberta para que a assinatura seja reconhecida. Portanto, não é a direção da escola que vai ao cartório para esse procedimento, mas sim você.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
+        "titulo": "45- Quem Vai ao Cartório Reconhecer Firma da Assinatura",
+        "texto": "Olá, [NOME_ALUNO]!\n\nEspero que esta mensagem lhe encontre bem.\n\nApós a direção da escola assinar a ficha de estágio, a responsabilidade de realizar o reconhecimento de firma em cartório é do estudante.\n\nVocê deverá levar a ficha assinada a um cartório onde a direção da escola possua firma aberta para que a assinatura seja reconhecida. Portanto, não é a direção da escola que vai ao cartório para esse procedimento, mas sim você.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
     },
     {
         "id": 46,
-        "titulo": "ASSUNTOS FINANCEIROS",
-        "texto": "Olá, [NOME_ALUNO]!\n\nPara informações financeiras, como custos de disciplinas, entre outros assuntos relacionados ao financeiro, são tratadas apenas pela secretaria da universidade.\n\nPara obter mais detalhes sobre os valores, por gentileza, entre em contato com a secretaria. Segue o contato de WhatsApp disponível: (11) 4293-9080.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
+        "titulo": "46- Assuntos Financeiros",
+        "texto": "Olá, [NOME_ALUNO]!\n\nEspero que esta mensagem lhe encontre bem.\n\nPara informações financeiras, como custos de disciplinas, entre outros assuntos relacionados ao financeiro, são tratadas apenas pela secretaria da universidade.\n\nPara obter mais detalhes sobre os valores, por gentileza, entre em contato com a secretaria. Segue o contato de WhatsApp disponível: (11) 4293-9080.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
     },
     {
         "id": 47,
-        "titulo": "AJUSTE DE ENTREGA DE ESTÁGIO POR ENTRADA TARDIA DE DISCIPLINA",
-        "texto": "Olá, [NOME_ALUNO]!\n\nDevido a uma situação específica relacionada à sua entrada tardia, foi ajustado o prazo para a entrega da sua documentação de estágio. Você poderá realizar a entrega na plataforma até o dia [XX/XX/XXX]. Por gentileza, organize-se para cumprir o estágio e submeter os documentos dentro desta nova data limite.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
+        "titulo": "47- Ajuste de Entrega de Estágio por Entrada Tardia de Disciplina",
+        "texto": "Olá, [NOME_ALUNO]!\n\nEspero que esta mensagem lhe encontre bem.\n\nDevido a uma situação específica relacionada à sua entrada tardia, foi ajustado o prazo para a entrega da sua documentação de estágio. Você poderá realizar a entrega na plataforma até o dia [XX/XX/XXX]. Por gentileza, organize-se para cumprir o estágio e submeter os documentos dentro desta nova data limite.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
     },
     {
         "id": 48,
-        "titulo": "PRECISA ATENDER A FAIXA ETÁRIA DE 4 E 5 ANOS NO ESTÁGIO",
-        "texto": "Olá, [NOME_ALUNO]!\n\nConforme as orientações específicas para o Estágio Curricular Supervisionado II, o foco é em crianças de 0 e 5 anos.\n\nPortanto, para cumprir a demanda deste estágio, é necessário realizar a observação com crianças que se enquadrem nesta faixa etária, ou seja, tanto as de 4 quanto as de 5 anos.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
+        "titulo": "48- Faixa Etária de 4 e 5 Anos no Estágio",
+        "texto": "Olá, [NOME_ALUNO]!\n\nEspero que esta mensagem lhe encontre bem.\n\nConforme as orientações específicas para o Estágio Curricular Supervisionado II, o foco é em crianças de 0 e 5 anos.\n\nPortanto, para cumprir a demanda deste estágio, é necessário realizar a observação com crianças que se enquadrem nesta faixa etária, ou seja, tanto as de 4 quanto as de 5 anos.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
     },
     {
         "id": 49,
-        "titulo": "EM QUE SEMESTRE ESTOU",
-        "texto": "Olá, [NOME_ALUNO]!\n\nA forma mais indicada para acompanhar sua progressão acadêmica e verificar em qual semestre da estrutura curricular você está é consultando o seu boletim de notas na plataforma.\n\nO boletim reflete as disciplinas que você cursou e seu desempenho, o que indica sua posição ao longo do curso.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
+        "titulo": "49- Em que Semestre Estou",
+        "texto": "Olá, [NOME_ALUNO]!\n\nEspero que esta mensagem lhe encontre bem.\n\nA forma mais indicada para acompanhar sua progressão acadêmica e verificar em qual semestre da estrutura curricular você está é consultando o seu boletim de notas na plataforma.\n\nO boletim reflete as disciplinas que você cursou e seu desempenho, o que indica sua posição ao longo do curso.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
     },
     {
         "id": 50,
-        "titulo": "PONTUAÇÃO E NOTAS",
-        "texto": "Olá, [NOME_ALUNO]!\n\nPara ser aprovado nas disciplinas de graduação, é preciso alcançar no mínimo 6,0 pontos na nota final.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
+        "titulo": "50- Pontuação e Notas",
+        "texto": "Olá, [NOME_ALUNO]!\n\nEspero que esta mensagem lhe encontre bem.\n\nPara ser aprovado nas disciplinas de graduação, é preciso alcançar no mínimo 6,0 pontos na nota final.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
     },
     {
         "id": 51,
-        "titulo": "REABERTURA ATIVIDADES REALIZADA",
-        "texto": "Olá, [NOME_ALUNO]!\n\nConforme data do atestado médico. Abertura liberada até a data do dia [XX/XX/XXXX].\nVerifique para não perder o prazo. Evite DP!\n\nBons estudos!\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
+        "titulo": "51- Reabertura Atividades Realizada",
+        "texto": "Olá, [NOME_ALUNO]!\n\nEspero que esta mensagem lhe encontre bem.\n\nConforme data do atestado médico. Abertura liberada até a data do dia [XX/XX/XXXX].\nVerifique para não perder o prazo. Evite DP!\n\nBons estudos!\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
     },
     {
         "id": 52,
-        "titulo": "REGISTRO DE CARGA HORÁRIA NA FICHA DE ESTÁGIO",
-        "texto": "Olá, [NOME_ALUNO]!\n\nConforme as orientações, a carga horária total do estágio supervisionado é de 75 horas, sendo 50 horas dedicadas à observação presencial na escola e 25 horas para a elaboração do relatório.\n\nNas fichas de estágio, incluindo a ficha descritiva onde você registra as atividades diárias e a ficha resumo total de horas, você deve registrar APENAS as 50 horas correspondentes à observação realizada na escola.\n\nAs 25 horas destinadas à elaboração do relatório são contabilizadas após a entrega do relatório final e não precisam ser incluídas no registro das horas nas fichas preenchidas na escola.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
+        "titulo": "52- Registro de Carga Horária na Ficha de Estágio",
+        "texto": "Olá, [NOME_ALUNO]!\n\nEspero que esta mensagem lhe encontre bem.\n\nConforme as orientações, a carga horária total do estágio supervisionado é de 75 horas, sendo 50 horas dedicadas à observação presencial na escola e 25 horas para a elaboração do relatório.\n\nNas fichas de estágio, incluindo a ficha descritiva onde você registra as atividades diárias e a ficha resumo total de horas, você deve registrar APENAS as 50 horas correspondentes à observação realizada na escola.\n\nAs 25 horas destinadas à elaboração do relatório são contabilizadas após a entrega do relatório final e não precisam ser incluídas no registro das horas nas fichas preenchidas na escola.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
     },
     {
         "id": 53,
-        "titulo": "LEITURA DO FÓRUM - PARA ALUNO GROSSO",
-        "texto": "Olá, [NOME_ALUNO]!\n\nPor gentileza, peço que LEIA ATENTAMENTE o FÓRUM DE ORIENTAÇÃO e o MANUAL disponível, pois esta informação consta descrita no mesmo.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
+        "titulo": "53- Leitura do Fórum - Para Aluno Grosso",
+        "texto": "Olá, [NOME_ALUNO]!\n\nEspero que esta mensagem lhe encontre bem.\n\nPor gentileza, peço que LEIA ATENTAMENTE o FÓRUM DE ORIENTAÇÃO e o MANUAL disponível, pois esta informação consta descrita no mesmo.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
     },
     {
         "id": 54,
-        "titulo": "DOCUMENTOS PREENCHER A CANETA",
-        "texto": "Olá, [NOME_ALUNO]!\n\nConforme as orientações para a documentação do estágio, apenas o relatório de estágio é o documento que deve ser digitado e formatado de acordo com as normas da ABNT.\n\nCom exceção do relatório, todos os demais documentos do estágio, incluindo o Termo de Compromisso e as fichas, devem ser preenchidos de forma manuscrita. A caneta utilizada para o preenchimento manual pode ser azul ou preta.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
+        "titulo": "54- Documentos Preencher a Caneta",
+        "texto": "Olá, [NOME_ALUNO]!\n\nEspero que esta mensagem lhe encontre bem.\n\nConforme as orientações para a documentação do estágio, apenas o relatório de estágio é o documento que deve ser digitado e formatado de acordo com as normas da ABNT.\n\nCom exceção do relatório, todos os demais documentos do estágio, incluindo o Termo de Compromisso e as fichas, devem ser preenchidos de forma manuscrita. A caneta utilizada para o preenchimento manual pode ser azul ou preta.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
     },
     {
         "id": 55,
-        "titulo": "ASSINATURA DIGITAL - NÃO ACEITA",
-        "texto": "Olá, [NOME_ALUNO]!\n\nConforme as orientações, o Ministério da Educação (MEC) não aceita assinatura eletrônica ou digital para a formalização dos documentos do estágio. É necessário que a assinatura seja manual e, no caso da Ficha de Estágio, que a firma da direção da escola seja reconhecida em cartório.\n\nPortanto, a assinatura deve ser física, e no caso da ausência da Diretora, a Coordenadora pode assinar seguindo o procedimento adicional da carta explicativa.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
+        "titulo": "55- Assinatura Digital - Não Aceita",
+        "texto": "Olá, [NOME_ALUNO]!\n\nEspero que esta mensagem lhe encontre bem.\n\nConforme as orientações, o Ministério da Educação (MEC) não aceita assinatura eletrônica ou digital para a formalização dos documentos do estágio. É necessário que a assinatura seja manual e, no caso da Ficha de Estágio, que a firma da direção da escola seja reconhecida em cartório.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
     },
     {
         "id": 56,
-        "titulo": "ERRO NA PLATAFORMA DE ESTÁGIO",
-        "texto": "Olá, [NOME_ALUNO]!\n\nApós o envio da documentação do estágio, o status na plataforma deve mudar, indicando que o material está em análise pela supervisão, o que é geralmente sinalizado por uma legenda específica. O status \"pendente\", com o arquivo anexado, pode sugerir que houve alguma intercorrência no processamento do envio.\nPara tentar resolver essa situação, por gentileza, tente submeter a documentação novamente, seguindo os passos de envio pela Central do Aluno.\n\nSe, após tentar reenviar, o problema persistir e o status continuar como \"pendente\", a recomendação é que você entre em contato comigo mesmo via chat para investigar se há uma questão técnica impedindo o correto processamento do seu envio na plataforma.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
+        "titulo": "56- Erro na Plataforma de Estágio",
+        "texto": "Olá, [NOME_ALUNO]!\n\nEspero que esta mensagem lhe encontre bem.\n\nApós o envio da documentação do estágio, o status na plataforma deve mudar, indicando que o material está em análise pela supervisão, o que é geralmente sinalizado por uma legenda específica. O status \"pendente\", com o arquivo anexado, pode sugerir que houve alguma intercorrência no processamento do envio.\nPara tentar resolver essa situação, por gentileza, tente submeter a documentação novamente, seguindo os passos de envio pela Central do Aluno.\n\nSe, após tentar reenviar, o problema persistir e o status continuar como \"pendente\", a recomendação é que você entre em contato comigo mesmo via chat para investigar se há uma questão técnica impedindo o correto processamento do seu envio na plataforma.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
     },
     {
         "id": 57,
-        "titulo": "CANAL DE ATENDIMENTO",
-        "texto": "Olá, [NOME_ALUNO]!\n\nOs canais oficiais de comunicação e suporte para você obter informações e esclarecer dúvidas são exclusivamente o chat e os fóruns disponibilizados na plataforma.\n\nÉ importante utilizar esses canais oficiais, pois a instituição não se responsabiliza por informações obtidas por meios que não sejam esses canais.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
+        "titulo": "57- Canal de Atendimento",
+        "texto": "Olá, [NOME_ALUNO]!\n\nEspero que esta mensagem lhe encontre bem.\n\nOs canais oficiais de comunicação e suporte para você obter informações e esclarecer dúvidas são exclusivamente o chat e os fóruns disponibilizados na plataforma.\n\nÉ importante utilizar esses canais oficiais, pois a instituição não se responsabiliza por informações obtidas por meios que não sejam esses canais.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
     },
     {
         "id": 58,
-        "titulo": "FICHA DESCRITIVA vs  RELATÓRIO",
-        "texto": "Olá, [NOME_ALUNO]!\n\nEles não são a mesma coisa, possuem propósitos distintos e complementares na documentação do seu estágio supervisionado.\n\nA Ficha Descritiva serve como um registro diário ou por aula das suas observações na escola. Nela, você anota detalhes sobre as atividades realizadas, a data, o horário, o ano/turma e coleta a rubrica ou assinatura do professor supervisor da escola para comprovar a sua presença e as horas naquele dia.\n\nO Relatório de Estágio, por sua vez, é um documento final mais elaborado, que você constrói a partir das observações registradas na ficha descritiva. O relatório inclui a descrição das experiências vivenciadas, mas o principal é a análise crítica, a reflexão sobre as práticas observadas e a discussão com base nos conhecimentos teóricos do curso. Ele segue uma estrutura acadêmica formal e deve ser digitado.\n\nPortanto, a ficha descritiva é a sua ferramenta de coleta de dados diários no campo de estágio, enquanto o relatório é a sistematização, análise e reflexão acadêmica desses dados.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
+        "titulo": "58- Ficha Descritiva vs Relatório",
+        "texto": "Olá, [NOME_ALUNO]!\n\nEspero que esta mensagem lhe encontre bem.\n\nEles não são a mesma coisa, possuem propósitos distintos e complementares na documentação do seu estágio supervisionado.\n\nA Ficha Descritiva serve como um registro diário ou por aula das suas observações na escola. Nela, você anota detalhes sobre as atividades realizadas, a data, o horário, o ano/turma e coleta a rubrica ou assinatura do professor supervisor da escola para comprovar a sua presença e as horas naquele dia.\n\nO Relatório de Estágio, por sua vez, é um documento final mais elaborado, que você constrói a partir das observações registradas na ficha descritiva. O relatório inclui a descrição das experiências vivenciadas, mas o principal é a análise crítica, a reflexão sobre as práticas observadas e a discussão com base nos conhecimentos teóricos do curso. Ele segue uma estrutura acadêmica formal e deve ser digitado.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
     },
     {
         "id": 59,
-        "titulo": "CORREÇÃO DE ESTÁGIO PELO TUTOR",
-        "texto": "Olá, [NOME_ALUNO]!\n\nNós tutores não realizamos a correção prévia dos relatórios de estágio.\n\nA análise formal do seu relatório e a devolutiva sobre a aprovação ou necessidade de ajustes são realizadas pelo setor responsável após a submissão completa de toda a sua documentação de estágio na plataforma.\n\nPara garantir que seu relatório esteja correto, por gentileza, elabore-o seguindo todas as orientações detalhadas no Manual de Estágio, no Manual de Trabalhos Acadêmicos (para as normas de formatação da ABNT). Recomendamos que você revise seu relatório cuidadosamente antes de realizar o envio final.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
+        "titulo": "59- Correção de Estágio Pelo Tutor",
+        "texto": "Olá, [NOME_ALUNO]!\n\nEspero que esta mensagem lhe encontre bem.\n\nNós tutores não realizamos a correção prévia dos relatórios de estágio.\n\nA análise formal do seu relatório e a devolutiva sobre a aprovação ou necessidade de ajustes são realizadas pelo setor responsável após a submissão completa de toda a sua documentação de estágio na plataforma.\n\nPara garantir que seu relatório esteja correto, por gentileza, elabore-o seguindo todas as orientações detalhadas no Manual de Estágio, no Manual de Trabalhos Acadêmicos (para as normas de formatação da ABNT). Recomendamos que você revise seu relatório cuidadosamente antes de realizar o envio final.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
     },
     {
         "id": 60,
-        "titulo": "SOBRE ESTÁGIO REMUNERADO",
-        "texto": "Olá, [NOME_ALUNO]!\n\nÉ importante esclarecer que o Estágio Remunerado não substitui o estágio obrigatório curricular do curso.\n\nE para obter orientações sobre estágio remunerado, é necessário acessar o seguinte link: <https://www.uninove.br/informativos/estagio-e-carreira>\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
+        "titulo": "60- Estágio Remunerado",
+        "texto": "Olá, [NOME_ALUNO]!\n\nEspero que esta mensagem lhe encontre bem.\n\nÉ importante esclarecer que o Estágio Remunerado não substitui o estágio obrigatório curricular do curso.\n\nE para obter orientações sobre estágio remunerado, é necessário acessar o seguinte link: <https://www.uninove.br/informativos/estagio-e-carreira>\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
     },
     {
         "id": 61,
-        "titulo": "NÃO CUMPRIU NO BOLETIM",
-        "texto": "Olá, [NOME_ALUNO]!\n\nO status “não cumpriu”  em seu boletim ocorre, porque o sistema ainda não subiu as notas ou a aprovação em caso de estágios.\n\nEnquanto o processo de análise de estágios ou o processamento de notas estiver em andamento, o sistema entende que essa etapa ainda não foi cumprida .\n\nApós a análise e o processamento de notas ser finalizado o status no sistema será atualizado automaticamente, refletindo o status devido da disciplina em seu boletim.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
+        "titulo": "61- Não Cumpriu no Boletim",
+        "texto": "Olá, [NOME_ALUNO]!\n\nEspero que esta mensagem lhe encontre bem.\n\nO status “não cumpriu” em seu boletim ocorre, porque o sistema ainda não subiu as notas ou a aprovação em caso de estágios.\n\nEnquanto o processo de análise de estágios ou o processamento de notas estiver em andamento, o sistema entende que essa etapa ainda não foi cumprida .\n\nApós a análise e o processamento de notas ser finalizado o status no sistema será atualizado automaticamente, refletindo o status devido da disciplina em seu boletim.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
     },
     {
         "id": 62,
-        "titulo": "NOTA DE ATIVIDADES NO BOLETIM",
-        "texto": "Olá, [NOME_ALUNO]!\n\nConforme o procedimento, após realizar as atividades na plataforma, é fundamental que você finalize e envie suas respostas para avaliação, utilizando o botão apropriado ao final da atividade.\n\nO sistema geralmente computa e registra a sua nota automaticamente após a submissão. Se a nota não foi contabilizada, isso pode indicar que a atividade não foi devidamente enviada para avaliação.\n\nPor gentileza, verifique o status da atividade em sua plataforma para confirmar se ela consta como entregue e se há alguma nota registrada. Caso a nota não apareça, e se a atividade ainda estiver dentro do prazo de realização, será necessário realizá-la novamente e garantir o envio correto para que a pontuação seja computada.\n\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
+        "titulo": "62- Nota de Atividades no Boletim",
+        "texto": "Olá, [NOME_ALUNO]!\n\nEspero que esta mensagem lhe encontre bem.\n\nConforme o procedimento, após realizar as atividades na plataforma, é fundamental que você finalize e envie suas respostas para avaliação, utilizando o botão apropriado ao final da atividade.\n\nO sistema geralmente computa e registra a sua nota automaticamente após a submissão. Se a nota não foi contabilizada, isso pode indicar que a atividade não foi devidamente enviada para avaliação.\n\nPor gentileza, verifique o status da atividade em sua plataforma para confirmar se ela consta como entregue e se há alguma nota registrada. Caso a nota não apareça, e se a atividade ainda estiver dentro do prazo de realização, será necessário realizá-la novamente e garantir o envio correto para que a pontuação seja computada.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
     },
     {
         "id": 63,
-        "titulo": "ESTÁGIO OBRIGATÓRIO NA MESMA ESCOLA DO REMUNERADO",
-        "texto": "Olá, [NOME_ALUNO]!\n\nNão é recomendado realizar o estágio obrigatório na mesma escola onde você trabalha com estágio remunerado. O estágio obrigatório precisa ser uma atividade supervisionada específica, sem vínculo empregatício, seguindo as diretrizes do curso.\n\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
+        "titulo": "63- Estágio Obrigatório na Mesma Escola do Remunerado",
+        "texto": "Olá, [NOME_ALUNO]!\n\nEspero que esta mensagem lhe encontre bem.\n\nNão é recomendado realizar o estágio obrigatório na mesma escola onde você trabalha com estágio remunerado. O estágio obrigatório precisa ser uma atividade supervisionada específica, sem vínculo empregatício, seguindo as diretrizes do curso.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
     },
     {
         "id": 64,
-        "titulo": "ATIVIDADES COMPLEMENTARES",
-        "texto": "Olá, [NOME_ALUNO]!\n\nPara os novos graduandos, as horas complementares tradicionais não são mais exigidas. Em substituição, a instituição irá propor projetos que serão orientados e acompanhados diretamente pela plataforma.\n\nSeus certificados podem ser anexados na plataforma para verificar se são aceitos dentro do contexto de outras atividades acadêmicas.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
+        "titulo": "64- Atividades Complementares",
+        "texto": "Olá, [NOME_ALUNO]!\n\nEspero que esta mensagem lhe encontre bem.\n\nPara os novos graduandos, as horas complementares tradicionais não são mais exigidas. Em substituição, a instituição irá propor projetos que serão orientados e acompanhados diretamente pela plataforma.\n\nSeus certificados podem ser anexados na plataforma para verificar se são aceitos dentro do contexto de outras atividades acadêmicas.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
     },
     {
         "id": 65,
-        "titulo": "ATIVIDADE DUPLICADA",
-        "texto": "Olá, [NOME_ALUNO]!\n\nObrigada por informar, já encaminhamos para o setor responsável.\n\n Nosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
+        "titulo": "65- Atividade Duplicada",
+        "texto": "Olá, [NOME_ALUNO]!\n\nEspero que esta mensagem lhe encontre bem.\n\nObrigada por informar, já encaminhamos para o setor responsável.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
     },
     {
         "id": 66,
-        "titulo": "PROCURAR O TUTOR DA DISCIPLINA",
-        "texto": "Olá, [NOME_ALUNO]!\n\nPara obter melhor suporte sobre a disciplina em questão, por favor, entre em contato diretamente com o tutor. Ele poderá auxiliar você da maneira mais eficaz.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
+        "titulo": "66- Tutor da Disciplina",
+        "texto": "Olá, [NOME_ALUNO]!\n\nEspero que esta mensagem lhe encontre bem.\n\nPara obter melhor suporte sobre a disciplina em questão, por favor, entre em contato diretamente com o tutor. Ele poderá auxiliar você da maneira mais eficaz.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
     },
     {
         "id": 67,
-        "titulo": "ASSUNTOS DE SECRETARIA",
-        "texto": "Olá, [NOME_ALUNO]!\n\nPara que sua questão seja esclarecida, por gentileza, peço que entre em contato diretamente com a secretaria da instituição. Eles poderão oferecer o suporte necessário para sua solicitação.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
+        "titulo": "67- Assuntos de Secretaria",
+        "texto": "Olá, [NOME_ALUNO]!\n\nEspero que esta mensagem lhe encontre bem.\n\nPara que sua questão seja esclarecida, por gentileza, peço que entre em contato diretamente com a secretaria da instituição. Eles poderão oferecer o suporte necessário para sua solicitação.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
     },
     {
         "id": 68,
-        "titulo": "ERRO PLATAFORMA - PROCURAR SUPORTE TECNICO",
-        "texto": "Olá, [NOME_ALUNO]!\n\nPara tentar solucionar a dificuldade na plataforma, por gentileza, peço que reinicie sua máquina, limpe o cache do seu navegador de internet e tente acessar novamente. \n\nCaso o erro persista após essas tentativas, por gentileza, entre em contato com o suporte técnico da instituição para que possam analisar e auxiliar na sua situação.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
+        "titulo": "68- Erro Plataforma - Procurar Suporte Tecnico",
+        "texto": "Olá, [NOME_ALUNO]!\n\nEspero que esta mensagem lhe encontre bem.\n\nPara tentar solucionar a dificuldade na plataforma, por gentileza, peço que reinicie sua máquina, limpe o cache do seu navegador de internet e tente acessar novamente. \n\nCaso o erro persista após essas tentativas, por gentileza, entre em contato com o suporte técnico da instituição para que possam analisar e auxiliar na sua situação.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e e aos sábados, das 7h às 12h."
     },
     {
         "id": 69,
-        "titulo": "NOVA DATA DE ENTREGA - ESTÁGIO",
-        "texto": "Olá, [NOME_ALUNO]!\n\nTente submeter os documentos até a data do dia [XX/XX/XXXX].\n\nBoa sorte!\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
+        "titulo": "69- Nova Data de Entrega - Estágio",
+        "texto": "Olá, [NOME_ALUNO]!\n\nEspero que esta mensagem lhe encontre bem.\n\nTente submeter os documentos até a data do dia [XX/XX/XXXX].\n\nBoa sorte!\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
     },
     {
         "id": 70,
-        "titulo": "ATIVIDADES - TENTE HOJE",
-        "texto": "Olá, [NOME_ALUNO]!\n\nTente realizá-la hoje para não entrar em Dependência!\nBons estudos e boa sorte!\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
+        "titulo": "70- Atividades - Tente Hoje",
+        "texto": "Olá, [NOME_ALUNO]!\n\nEspero que esta mensagem lhe encontre bem.\n\nTente realizá-la hoje para não entrar em Dependência!\nBons estudos e boa sorte!\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
     },
     {
         "id": 71,
-        "titulo": "QUESTÃO DA ATIVIDADE FOI  EXCLUÍDA",
-        "texto": "Olá, [NOME_ALUNO]!\n\nA questão já foi excluída do sistema e não interfere em sua pontuação, pois o sistema distribui a pontuação para as demais que restaram na plataforma. \n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
+        "titulo": "71- Questão da Atividade anulada",
+        "texto": "Olá, [NOME_ALUNO]!\n\nEspero que esta mensagem lhe encontre bem.\n\nA questão já foi excluída do sistema e não interfere em sua pontuação, pois o sistema distribui a pontuação para as demais que restaram na plataforma. \n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
     },
     {
         "id": 72,
-        "titulo": "PASSO A PASSO PARA PEDIR ATESTADO DE MATRÍCULA",
-        "texto": "Olá, [NOME_ALUNO]!\n\nSegue o passo a passo necessário para solicitar o seu ATESTADO DE MATRÍCULA:\n\nCENTRAL DO ALUNO> MINHA SECRETARIA > MINHAS SOLICITAÇÕES > FAZER SOLICITAÇÕES > ATESTADO DE MATRÍCULA - DIGITALIZADO \n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
+        "titulo": "72- Atestado de Matrícula",
+        "texto": "Olá, [NOME_ALUNO]!\n\nEspero que esta mensagem lhe encontre bem.\n\nSegue o passo a passo necessário para solicitar o seu ATESTADO DE MATRÍCULA:\n\nCENTRAL DO ALUNO> MINHA SECRETARIA > MINHAS SOLICITAÇÕES > FAZER SOLICITAÇÕES > ATESTADO DE MATRÍCULA - DIGITALIZADO \n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
     },
     {
         "id": 73,
-        "titulo": "SUPORTE PELOS CANAIS DO ENADE",
-        "texto": "Olá, [NOME_ALUNO]!\n\nPor gentileza, solicite suporte por esses canais:\n1. Central de Atendimento do INEP/MEC:\nA primeira opção é entrar em contato diretamente com o INEP através do seu canal de atendimento, geralmente disponibilizado no site do ENADE.\n2. Plataforma Fala.BR:\nPara casos mais complexos ou se o canal de atendimento do INEP não for suficiente, pode utilizar a plataforma Fala.BR do governo federal, que é um serviço de ouvidoria para serviços públicos federais. Ao utilizar essa plataforma, é recomendável anexar prints ou capturas de tela do erro para facilitar a identificação e resolução do problema.\n3. Central de Atendimento do MEC (0800-616161):\nO MEC também oferece uma central de atendimento para dúvidas e problemas relacionados ao ENADE.\n4. FAQ do Portal Gov.br:\nSe o problema for relacionado à conta no portal Gov.br, é importante consultar o FAQ do próprio portal para obter informações sobre dúvidas frequentes e como resolver problemas. \n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
+        "titulo": "73- Suporte Pelos Canais do Enade",
+        "texto": "Olá, [NOME_ALUNO]!\n\nEspero que esta mensagem lhe encontre bem.\n\nPor gentileza, solicite suporte por esses canais:\n\n1. Central de Atendimento do INEP/MEC:\nA primeira opção é entrar em contato diretamente com o INEP através do seu canal de atendimento, geralmente disponibilizado no site do ENADE.\n\n2. Plataforma Fala.BR:\nPara casos mais complexos ou se o canal de atendimento do INEP não for suficiente, pode utilizar a plataforma Fala.BR do governo federal, que é um serviço de ouvidoria para serviços públicos federais. Ao utilizar essa plataforma, é recomendável anexar prints ou capturas de tela do erro para facilitar a identificação e resolução do problema.\n\n3. Central de Atendimento do MEC (0800-616161):\nO MEC também oferece uma central de atendimento para dúvidas e problemas relacionados ao ENADE.\n\n4. FAQ do Portal Gov.br:\nSe o problema for relacionado à conta no portal Gov.br, é importante consultar o FAQ do próprio portal para obter informações sobre dúvidas frequentes e como resolver problemas. \n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
     },
     {
         "id": 74,
-        "titulo": "CRONOGRAMA DE ATIVIDADES",
-        "texto": "Olá, [NOME_ALUNO]!\n\nTodas as datas de entrega das atividades avaliativas e de participação nos fóruns são informadas diretamente na plataforma no início da disciplina. Recomendamos que você consulte essas datas para organizar seu cronograma de estudos.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
+        "titulo": "74- Cronograma de Atividades",
+        "texto": "Olá, [NOME_ALUNO]!\n\nEspero que esta mensagem lhe encontre bem.\n\nTodas as datas de entrega das atividades avaliativas e de participação nos fóruns são informadas diretamente na plataforma no início da disciplina. Recomendamos que você consulte essas datas para organizar seu cronograma de estudos.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
     },
     {
         "id": 75,
-        "titulo": "MANUAL PREENCHIMENTO",
-        "texto": "Olá, [NOME_ALUNO]!\n\nConsulte o arquivo 'Manual de preenchimento Educação Infantil', anexado a este post. \nEle detalha o passo a passo de como, onde e o que fazer para realizar seu estágio.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
+        "titulo": "75- Manual Preenchimento",
+        "texto": "Olá, [NOME_ALUNO]!\n\nEspero que esta mensagem lhe encontre bem.\n\nConsulte o arquivo 'Manual de preenchimento Educação Infantil', anexado a este post. \nEle detalha o passo a passo de como, onde e o que fazer para realizar seu estágio.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
     },
     {
         "id": 76,
-        "titulo": "M. PREEENCHIMENTO PARA AS TURMAS QUE NÃO TEM NO FÓRUM",
-        "texto": "Olá, [NOME_ALUNO]!\n\nEstou enviando um documento que acredito que esclarecerá muitas das suas dúvidas. \n\nQualquer pergunta que tiver, estou à disposição.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
+        "titulo": "76- M. Preeenchimento Para as Turmas que Não tem no Fórum",
+        "texto": "Olá, [NOME_ALUNO]!\n\nEspero que esta mensagem lhe encontre bem.\n\nEstou enviando um documento que acredito que esclarecerá muitas das suas dúvidas. \n\nQualquer pergunta que tiver, estou à disposição.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
+    },
+    {
+        "id": 77,
+        "titulo": "77- Dependência de Disciplinas - Atividades",
+        "texto": "Olá, [NOME_ALUNO]!\n\nEspero que esta mensagem lhe encontre bem.\n\nCaso as atividades avaliativas não sejam concluídas dentro do prazo da disciplina, ela ficará registrada automaticamente como dependência (DP).\n\nPara poder realizar a disciplina no próximo semestre, você precisará se matricular em dependência quando houver uma nova oferta disponível na plataforma.\n\nPara realizar sua matrícula de dependência, siga os passos:\nMINHA SECRETARIA.\nMATRÍCULAS EM DEPENDÊNCIA\nDisciplina em DEPENDÊNCIA\nESCOLHA A DISCIPLINA e confirme.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
+    },
+    {
+        "id": 78,
+        "titulo": "78- Termo de Compromisso Enviado para Cp",
+        "texto": "Olá, [NOME_ALUNO]!\n\nEspero que esta mensagem lhe encontre bem.\n\nSeu Termo de Compromisso de Estágio Curricular Obrigatório foi encaminhado para a assinatura da coordenação. Avisarei quando estiver pronto por este canal de atendimento.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
+    },
+    {
+        "id": 79,
+        "titulo": "79- Carga Horária Diaria de Estágio",
+        "texto": "Olá, [NOME_ALUNO]!\n\nEspero que esta mensagem lhe encontre bem.\n\nO estágio obrigatório pode ter uma carga horária de 1 a 6 horas diárias, sem ultrapassar o limite de 30 horas semanais.\n\nÉ importante ressaltar que o estágio remunerado é independente do estágio curricular obrigatório.\n\nNosso atendimento está disponível de segunda a sexta, das 7h às 15h, e aos sábados, das 7h às 12h."
     }
 ]
