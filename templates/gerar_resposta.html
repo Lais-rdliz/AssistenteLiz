@@ -40,6 +40,21 @@
     <script>
         let todasAsRespostas = []; 
 
+        // --- INÍCIO DA CORREÇÃO: FUNÇÃO PARA OBTER SAUDAÇÃO DINÂMICA (ESSA ESTAVA FALTANDO) ---
+        function obterSaudacaoJs() {
+            const agora = new Date(); 
+            const hora = agora.getHours(); 
+
+            if (hora >= 6 && hora < 12) {
+                return "Bom dia";
+            } else if (hora >= 12 && hora < 18) {
+                return "Boa tarde";
+            } else {
+                return "Boa noite";
+            }
+        }
+        // --- FIM DA CORREÇÃO ---
+
         function carregarRespostasParaSelecao() {
             fetch('/api/respostas_json') 
                 .then(response => {
@@ -53,7 +68,9 @@
                     const selectElement = document.getElementById('selecionar_resposta');
                     selectElement.innerHTML = ''; 
 
-                    if (todasAsRespostas.length === 0) {
+                    // A variável 'todasAsRespuestas' foi corrigida para 'todasAsRespostas'
+                    // Essa verificação é importante para garantir que o dropdown não fique vazio
+                    if (todasAsRespostas.length === 0) { 
                         const option = document.createElement('option');
                         option.value = '';
                         option.textContent = 'Nenhuma resposta cadastrada. Gerencie em "Gerenciar Respostas".';
@@ -65,29 +82,11 @@
                             const option = document.createElement('option');
                             option.value = resposta.id; 
                             
-                            // --- MUDANÇA AQUI: Formatação da opção no SELECT ---
                             const titulo = resposta.titulo || 'Sem Título'; 
                             
-                            // Você pode escolher uma destas opções para `option.textContent`:
-                            // 1. Apenas o título:
+                            // Apenas o título no dropdown, como você pediu
                             option.textContent = titulo; 
                             
-                            // 2. Título e um pedaço muito curto do texto para contexto (sem repetição do Olá [NOME_ALUNO]):
-                            // const textoCurtoParaPreview = resposta.texto
-                            //     .replace(/Olá, \[NOME_ALUNO\]!/, '') // Remove a saudação
-                            //     .replace(/\r?\n/g, ' ') // Remove quebras de linha
-                            //     .trim() // Remove espaços no início/fim
-                            //     .substring(0, 30) + '...'; // Pega os primeiros 30 caracteres
-                            // option.textContent = `${titulo} - ${textoCurtoParaPreview}`;
-
-                            // 3. Título e a primeira linha do texto (sem a saudação inicial):
-                            // const primeiraLinha = resposta.texto
-                            //     .split(/\r?\n/)[0] // Pega a primeira linha
-                            //     .replace(/Olá, \[NOME_ALUNO\]!/, '') // Remove a saudação
-                            //     .trim();
-                            // option.textContent = `${titulo} - ${primeiraLinha}`;
-                            // --- FIM DA MUDANÇA ---
-
                             selectElement.appendChild(option);
                         });
                         selectElement.selectedIndex = 0; 
@@ -100,9 +99,10 @@
                 });
         }
 
+        // --- INÍCIO DA CORREÇÃO: FUNÇÃO GERAR RESPOSTA (REAPLICAR LÓGICA DE SAUDAÇÃO) ---
         function gerarResposta() {
             const respostaIdSelecionada = document.getElementById('selecionar_resposta').value;
-            const nomeAluno = document = document.getElementById('nome_aluno').value; // CORREÇÃO AQUI
+            const nomeAluno = document.getElementById('nome_aluno').value; 
             const respostaFinalArea = document.getElementById('resposta_final');
 
             if (!respostaIdSelecionada) {
@@ -114,15 +114,24 @@
                 return;
             }
 
-            const respostaEscolhida = todasAsRespostas.find(resposta => resposta.id == respostaIdSelecionada);
+            const respostaEscolhida = todasAsRespostas.find(resposta => resposta.id == respostaIdSelecionada); 
 
             if (respostaEscolhida) {
-                const textoFinal = respostaEscolhida.texto.replace(/\[NOME_ALUNO\]/g, nomeAluno);
-                respostaFinalArea.value = textoFinal;
+                let textoFinal = respostaEscolhida.texto; // Pega o texto original da resposta
+                const saudacaoDinamica = obterSaudacaoJs(); // Obtém a saudação dinâmica
+
+                // 1. Substitua [NOME_ALUNO] pelo nome real.
+                textoFinal = textoFinal.replace(/\[NOME_ALUNO\]/g, nomeAluno);
+
+                // 2. Substitua a saudação inicial (Olá, Oi, etc.) pela saudação dinâmica.
+                textoFinal = textoFinal.replace(/^(Olá|Oi),?\s*([^,!\n]*)/i, `${saudacaoDinamica}, $2`);
+
+                respostaFinalArea.value = textoFinal; 
             } else {
                 respostaFinalArea.value = "Erro: Resposta selecionada não encontrada.";
             }
         }
+        // --- FIM DA CORREÇÃO ---
 
         function copiarResposta() {
             const respostaFinalArea = document.getElementById('resposta_final');
